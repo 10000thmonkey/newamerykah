@@ -376,15 +376,17 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 
 .newsfeed {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax( 300px, 1fr));
 	gap: 30px;
+	margin: 0 auto;
+	max-width: 1000px;
 
 	article {
 		border-radius: 30px;
 		background: white;
 		border: 1px solid var(--iosigold);
 
-		h1 { font-size: 24px; padding: 15px; color: var(--text-primary); }
+		h1 { font-size: 24px; padding: 15px; color: var(--text-secondary); }
 		p { padding: 15px; margin: 0; color: var(--text-secondary); }
 	}
 }
