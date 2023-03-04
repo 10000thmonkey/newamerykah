@@ -131,5 +131,11 @@ if ( ! is_admin() )
     wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
 
     add_filter( "show_admin_bar", "__return_false" );
+
+    add_action( "init",
+        function() {
+            add_theme_support( 'title-tag' );
+        }
+    );
 }
 ?>

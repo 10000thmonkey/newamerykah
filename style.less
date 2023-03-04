@@ -16,6 +16,10 @@ body {
     --ui-button-active-fill: linear-gradient(to right, rgb(255 255 255 / 67%), rgb(255 255 255 / 38%) );
     --ui-button-active-text: var(--iosidark);
 
+	*, h2, h1 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
+	p { color: var(--text-secondary); }
+
+
     .bg-wrapper {
     	background-repeat: no-repeat;
     	background-position: center;
@@ -39,6 +43,9 @@ body.whiteamerykah {
 		background-image: url("/wp-content/plugins/newamerykah/a/grad-bg-light.png");
 	}
 }
+
+
+body {margin:0;padding: 0;background-color: var(--iosilight);}
 
 
 
@@ -208,11 +215,6 @@ node-select {
 		}
 	}
 }
-
-
-
-body {margin:0;padding: 0;background-color: var(--iosilight);}
-*, h2, h1 {font-family: Montserrat;box-sizing: border-box;}
 
 
 .crossword h1, .crossword p {color: var(--iosigrey)};
@@ -388,7 +390,7 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 
 .newsfeed {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax( 300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax( 400px, 1fr));
 	gap: 30px;
 	margin: 0 auto;
 	max-width: 1000px;
@@ -410,4 +412,22 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 
 	&.newsfeed-mobile { @media(min-width: 800px) { display:none; } }
 	&.newsfeed-desktop { @media(max-width: 799px) { display:none; } }
+}
+
+
+
+article .wp-block-embed__wrapper {
+	width: 100%;
+    height: 0;
+    position: relative;
+    padding-top: 62%;
+    margin: 30px auto;
+    iframe {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
