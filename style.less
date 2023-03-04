@@ -4,14 +4,27 @@
     --iosigrey: #cecece;
     --iosigold: #b39a55;
     --iosigoldligth: #f4d98d;
+}
 
-
-    --text-primary: var(--iosigold);
+body {
+	--text-primary: var(--iosigold);
     --text-secondary: var(--iosigrey);
+
+    .bg-wrapper {
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+	    background-image: url("/wp-content/plugins/newamerykah/a/grad-bg-dark.png");
+	}
 }
 body.whiteamerykah {
 	--text-primary: var(--iosigold);
 	--text-secondary: var(--iosidark);
+
+	.bg-wrapper {
+		background-color: white;
+		background-image: url("/wp-content/plugins/newamerykah/a/grad-bg-light.png");
+	}
 }
 
 
