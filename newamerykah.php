@@ -22,7 +22,7 @@
  * 
  * */
 
-$templ_dir = plugin_dir_path();
+$templ_dir = plugin_dir_path( __FILE__ );
 
 
 global $nv_controllers;
