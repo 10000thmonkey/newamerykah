@@ -1,6 +1,6 @@
 <?php
 nv_new_c (
-	"",
+	"c/page-header",
 	function ( $VAR )
 	{
 		$VAR = array_merge( [
