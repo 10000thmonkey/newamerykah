@@ -407,4 +407,7 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 		h1 { font-size: 24px; padding: 15px; color: var(--text-secondary); text-decoration: none; }
 		p { padding: 15px; margin: 0; color: var(--text-secondary); text-decoration: none; }
 	}
+
+	&.newsfeed-mobile { @media(min-width: 800px) { display:none; } }
+	&.newsfeed-desktop { @media(max-width: 799px) { display:none; } }
 }
