@@ -138,4 +138,6 @@ if ( ! is_admin() )
         }
     );
 }
+
+function wpdt_header_style() {}
 ?>
