@@ -1,0 +1,2550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"--io",
+				"--iosidark"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"--i",
+				"--iosidark"
+			],
+			[
+				"--",
+				"--iosigrey"
+			],
+			[
+				"--iosig",
+				"--iosigrey"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"--iosi",
+				"--iosilight"
+			],
+			[
+				"node",
+				"node1"
+			],
+			[
+				"data",
+				"data-value"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"node-sele",
+				"node-select-active"
+			],
+			[
+				"nodeSle",
+				"nodeSelect"
+			],
+			[
+				"node-op",
+				"node-options"
+			],
+			[
+				"node-",
+				"node-options"
+			],
+			[
+				"--he",
+				"--header-nav"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"--ios",
+				"--iosilight"
+			],
+			[
+				"tabi",
+				"tabindex"
+			],
+			[
+				"impl",
+				"implode()"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"a",
+				"attachment_id_portrait"
+			],
+			[
+				"att",
+				"attachment_id_portrait"
+			],
+			[
+				"nv_",
+				"nv_calculate_img_source"
+			],
+			[
+				"print",
+				"print_r()"
+			],
+			[
+				"emt",
+				"empty()"
+			],
+			[
+				"pa",
+				"padding-lg"
+			],
+			[
+				"post",
+				"post_title"
+			],
+			[
+				"nv",
+				"nv_c"
+			],
+			[
+				"epty",
+				"empty()"
+			],
+			[
+				"re",
+				"require_once"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"get_templa",
+				"get_template_directory"
+			],
+			[
+				"pr",
+				"print_r"
+			],
+			[
+				"ob_ge",
+				"ob_get_clean()"
+			],
+			[
+				"apar",
+				"apartment_name"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"button",
+				"button-plain"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"billin",
+				"billing_phone"
+			],
+			[
+				"json",
+				"json_encode()"
+			],
+			[
+				"woo",
+				"woocommerce-error"
+			],
+			[
+				"space-around",
+				"space-around-hg"
+			],
+			[
+				"gap",
+				"gap-hg"
+			],
+			[
+				"pad",
+				"padding-md"
+			],
+			[
+				"woocomm",
+				"woocommerce"
+			],
+			[
+				"woocommerc",
+				"woocommerce-info"
+			],
+			[
+				"NVLo",
+				"NVLoggedIn"
+			],
+			[
+				"padd",
+				"padding-md"
+			],
+			[
+				"var",
+				"var_dump()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"do",
+				"do_action"
+			],
+			[
+				"NVM",
+				"NVMessageBox"
+			],
+			[
+				"apa",
+				"apartments_not_available"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"par",
+				"parentElement"
+			],
+			[
+				"emp",
+				"empty()"
+			],
+			[
+				"galler",
+				"galleryPrev"
+			],
+			[
+				"nv-aja",
+				"nv-ajax-params"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"Nv",
+				"NVElement"
+			],
+			[
+				"spin",
+				"spinnerShow"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"section",
+				"section-highlight"
+			],
+			[
+				"empy",
+				"empty()"
+			],
+			[
+				"esc",
+				"esc_html"
+			],
+			[
+				"ob",
+				"ob_get_clean"
+			],
+			[
+				"nv_n",
+				"nv_new_t"
+			],
+			[
+				"wp_get_attachment_image_sr",
+				"wp_get_attachment_image_src"
+			],
+			[
+				"wp_get_at",
+				"wp_get_attachment_image_src"
+			],
+			[
+				"s",
+				"spinnerHide"
+			],
+			[
+				"back",
+				"backdrop-filter"
+			],
+			[
+				"hover",
+				"hovercards"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"get_templ",
+				"get_template_directory"
+			],
+			[
+				"backgorun",
+				"background-color"
+			],
+			[
+				"border-r",
+				"border-right-color"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"res",
+				"responsive_image"
+			],
+			[
+				"fe",
+				"feed-item"
+			],
+			[
+				"nv_new",
+				"nv_new_t"
+			],
+			[
+				"fee",
+				"feed-item"
+			],
+			[
+				"post_",
+				"post_title"
+			],
+			[
+				"responsive-i",
+				"responsive-image"
+			],
+			[
+				"va",
+				"var_dump()"
+			],
+			[
+				"pri",
+				"price_final"
+			],
+			[
+				"aray",
+				"array_merge"
+			],
+			[
+				"repon",
+				"responsive-image"
+			],
+			[
+				"J",
+				"JSON"
+			],
+			[
+				"prin",
+				"print_r()"
+			],
+			[
+				"epxlo",
+				"explode()"
+			],
+			[
+				"add",
+				"addItems"
+			],
+			[
+				"conne",
+				"connect"
+			],
+			[
+				"attrib",
+				"attribute"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"call_",
+				"call_user_func"
+			],
+			[
+				"strpo",
+				"strpos()"
+			],
+			[
+				"subst",
+				"substr()"
+			],
+			[
+				"child",
+				"childNodes"
+			],
+			[
+				"modal",
+				"modal-header"
+			],
+			[
+				"modal-",
+				"modal-body"
+			],
+			[
+				"filte",
+				"filter-tags"
+			],
+			[
+				"NVF",
+				"NVFeed"
+			],
+			[
+				"createConte",
+				"createContextualFragment"
+			],
+			[
+				"creat",
+				"createRange"
+			],
+			[
+				"tem",
+				"templateHTML"
+			],
+			[
+				"repl",
+				"replace"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
+				"attr",
+				"attributeChangedCallback"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"arr",
+				"array_push"
+			],
+			[
+				"get_pos",
+				"get_post_permalink"
+			],
+			[
+				"get_",
+				"get_template_directory"
+			],
+			[
+				"str_replac",
+				"str_replace()"
+			],
+			[
+				"wp_ajax",
+				"wp_ajax_nopriv_"
+			],
+			[
+				"incl",
+				"include_once"
+			],
+			[
+				"__",
+				"__DIR__"
+			],
+			[
+				"strp",
+				"strpos()"
+			],
+			[
+				"get",
+				"get_post_type"
+			],
+			[
+				"wp-",
+				"wp-admin"
+			],
+			[
+				"W",
+				"WP_DEBUG"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"ord",
+				"order_meta"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "newamerykah.php",
+			"settings":
+			{
+				"buffer_size": 2741,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "<?php"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "<?php"
+					},
+					"BQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " ?>"
+					},
+					"AwAAAAUAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAUAAAAAAAAABQAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAAUAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"",
+					null,
+					"AQAAAAYAAAAAAAAA6AEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "NewAm"
+					},
+					"BgAAACsAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAsAAAAAAAAAAoAAABIZWxsb1dvcmxkLAAAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKwAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					2,
+					"left_delete",
+					null,
+					"AgAAAC8AAAAAAAAALwAAAAAAAAABAAAAbS4AAAAAAAAALgAAAAAAAAABAAAAQQ",
+					"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": " amerykah"
+					},
+					"CQAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "New"
+					},
+					"BAAAAA4AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAPAAAAAAAAAAwAAABIZWxsbyBXb3JsZCAPAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADgAAAAAAAAAaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": " Ameryak"
+					},
+					"CAAAABEAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABcAAAAAAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					2,
+					"left_delete",
+					null,
+					"AgAAABgAAAAAAAAAGAAAAAAAAAABAAAAaxcAAAAAAAAAFwAAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": "kah?"
+					},
+					"BAAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAABoAAAAAAAAAGwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"left_delete",
+					null,
+					"AQAAABoAAAAAAAAAGgAAAAAAAAABAAAAPw",
+					"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "?"
+					},
+					"AQAAABoAAAAAAAAAGwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": "New"
+					},
+					"BAAAALUAAAAAAAAAtgAAAAAAAAAAAAAAtgAAAAAAAAC2AAAAAAAAAAwAAABIZWxsbyBXb3JsZCC2AAAAAAAAALcAAAAAAAAAAAAAALcAAAAAAAAAuAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": " M"
+					},
+					"AgAAALgAAAAAAAAAuQAAAAAAAAAAAAAAuQAAAAAAAAC6AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"left_delete",
+					null,
+					"AQAAALkAAAAAAAAAuQAAAAAAAAABAAAATQ",
+					"AQAAAAAAAAABAAAAugAAAAAAAAC6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": "Amerykah"
+					},
+					"CAAAALkAAAAAAAAAugAAAAAAAAAAAAAAugAAAAAAAAC7AAAAAAAAAAAAAAC7AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAvQAAAAAAAAAAAAAAvQAAAAAAAAC+AAAAAAAAAAAAAAC+AAAAAAAAAL8AAAAAAAAAAAAAAL8AAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADBAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAEBAAAAAAAAAQEAAAAAAAApAAAAUHJpbnRzICJIZWxsbyBXb3JsZCIgaW4gV29yZFByZXNzIGFkbWluLiA",
+					"AQAAAAAAAAABAAAAAQEAAAAAAAAqAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": "Cao"
+					},
+					"AwAAAAEBAAAAAAAAAgEAAAAAAAAAAAAAAgEAAAAAAAADAQAAAAAAAAAAAAADAQAAAAAAAAQBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAQEAAAAAAAABAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"insert",
+					{
+						"characters": " newamery"
+					},
+					"CgAAAGABAAAAAAAAYQEAAAAAAAAAAAAAYQEAAAAAAABhAQAAAAAAAA0AAAAgaGVsbG8td29ybGQgYQEAAAAAAABiAQAAAAAAAAAAAABiAQAAAAAAAGMBAAAAAAAAAAAAAGMBAAAAAAAAZAEAAAAAAAAAAAAAZAEAAAAAAABlAQAAAAAAAAAAAABlAQAAAAAAAGYBAAAAAAAAAAAAAGYBAAAAAAAAZwEAAAAAAAAAAAAAZwEAAAAAAABoAQAAAAAAAAAAAABoAQAAAAAAAGkBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbQEAAAAAAABgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": "kah"
+					},
+					"AwAAAGkBAAAAAAAAagEAAAAAAAAAAAAAagEAAAAAAABrAQAAAAAAAAAAAABrAQAAAAAAAGwBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaQEAAAAAAABpAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMEBAAAAAAAAwQEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAwgEAAAAAAADCAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					87,
+					1,
+					"insert",
+					{
+						"characters": "\n* \n* \n* "
+					},
+					"CQAAAMEBAAAAAAAAwgEAAAAAAAAAAAAAwgEAAAAAAADDAQAAAAAAAAAAAADDAQAAAAAAAMUBAAAAAAAAAAAAAMUBAAAAAAAAxgEAAAAAAAAAAAAAxgEAAAAAAADHAQAAAAAAAAAAAADHAQAAAAAAAMkBAAAAAAAAAAAAAMkBAAAAAAAAygEAAAAAAAAAAAAAygEAAAAAAADLAQAAAAAAAAAAAADLAQAAAAAAAM0BAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQEAAAAAAADBAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					1,
+					"paste",
+					null,
+					"AQAAAMUBAAAAAAAANQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQEAAAAAAADFAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					96,
+					1,
+					"insert",
+					{
+						"characters": "*"
+					},
+					"AQAAAPUBAAAAAAAA9gEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9QEAAAAAAAD1AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					98,
+					2,
+					"right_delete",
+					null,
+					"AgAAAPcBAAAAAAAA9wEAAAAAAAABAAAAIPcBAAAAAAAA9wEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA9wEAAAAAAAD3AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					100,
+					4,
+					"right_delete",
+					null,
+					"BAAAAMUBAAAAAAAAxQEAAAAAAAABAAAAIMUBAAAAAAAAxQEAAAAAAAABAAAAIMUBAAAAAAAAxQEAAAAAAAABAAAAIMUBAAAAAAAAxQEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAxQEAAAAAAADFAQAAAAAAAAAAAAAAADhA"
+				],
+				[
+					105,
+					1,
+					"insert",
+					{
+						"characters": "newamerykah"
+					},
+					"DAAAAOYBAAAAAAAA5wEAAAAAAAAAAAAA5wEAAAAAAADnAQAAAAAAAAkAAABuYXZhbGFjaHnnAQAAAAAAAOgBAAAAAAAAAAAAAOgBAAAAAAAA6QEAAAAAAAAAAAAA6QEAAAAAAADqAQAAAAAAAAAAAADqAQAAAAAAAOsBAAAAAAAAAAAAAOsBAAAAAAAA7AEAAAAAAAAAAAAA7AEAAAAAAADtAQAAAAAAAAAAAADtAQAAAAAAAO4BAAAAAAAAAAAAAO4BAAAAAAAA7wEAAAAAAAAAAAAA7wEAAAAAAADwAQAAAAAAAAAAAADwAQAAAAAAAPEBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5gEAAAAAAADvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					108,
+					8,
+					"left_delete",
+					null,
+					"CAAAADECAAAAAAAAMQIAAAAAAAABAAAAeTACAAAAAAAAMAIAAAAAAAABAAAAaC8CAAAAAAAALwIAAAAAAAABAAAAYy4CAAAAAAAALgIAAAAAAAABAAAAYS0CAAAAAAAALQIAAAAAAAABAAAAbCwCAAAAAAAALAIAAAAAAAABAAAAYSsCAAAAAAAAKwIAAAAAAAABAAAAdioCAAAAAAAAKgIAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAMgIAAAAAAAAyAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"insert",
+					{
+						"characters": "ewamerykah"
+					},
+					"CgAAACoCAAAAAAAAKwIAAAAAAAAAAAAAKwIAAAAAAAAsAgAAAAAAAAAAAAAsAgAAAAAAAC0CAAAAAAAAAAAAAC0CAAAAAAAALgIAAAAAAAAAAAAALgIAAAAAAAAvAgAAAAAAAAAAAAAvAgAAAAAAADACAAAAAAAAAAAAADACAAAAAAAAMQIAAAAAAAAAAAAAMQIAAAAAAAAyAgAAAAAAAAAAAAAyAgAAAAAAADMCAAAAAAAAAAAAADMCAAAAAAAANAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKgIAAAAAAAAqAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					124,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n\n\n\n"
+					},
+					"CQAAAD4CAAAAAAAAPwIAAAAAAAAAAAAAPwIAAAAAAABAAgAAAAAAAAAAAAA/AgAAAAAAAD8CAAAAAAAAAQAAACA/AgAAAAAAAD8CAAAAAAAAAAAAAD8CAAAAAAAAQAIAAAAAAAAAAAAAQAIAAAAAAABBAgAAAAAAAAAAAABBAgAAAAAAAEICAAAAAAAAAAAAAEICAAAAAAAAQwIAAAAAAAAAAAAAQwIAAAAAAABEAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPgIAAAAAAAA+AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					142,
+					1,
+					"paste",
+					null,
+					"AQAAAEECAAAAAAAAVwoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQQIAAAAAAABBAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					164,
+					1,
+					"paste",
+					null,
+					"AQAAAEACAAAAAAAAYAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQAIAAAAAAABAAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					181,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJcDAAAAAAAAlwMAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAmAMAAAAAAACYAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					185,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMwDAAAAAAAAzAMAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAzQMAAAAAAADNAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					189,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOoFAAAAAAAA6gUAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAA6wUAAAAAAADrBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					192,
+					1,
+					"left_delete",
+					null,
+					"AQAAAB8GAAAAAAAAHwYAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAIAYAAAAAAAAgBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					195,
+					1,
+					"right_delete",
+					null,
+					"AQAAAL0HAAAAAAAAvQcAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAvQcAAAAAAAC9BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					198,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAAIAAAAAAAAAAgAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					214,
+					1,
+					"insert",
+					{
+						"characters": "wp_en"
+					},
+					"BQAAAHMKAAAAAAAAdAoAAAAAAAAAAAAAdAoAAAAAAAB1CgAAAAAAAAAAAAB1CgAAAAAAAHYKAAAAAAAAAAAAAHYKAAAAAAAAdwoAAAAAAAAAAAAAdwoAAAAAAAB4CgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcwoAAAAAAABzCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					215,
+					1,
+					"insert",
+					{
+						"characters": "q"
+					},
+					"AQAAAHgKAAAAAAAAeQoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeAoAAAAAAAB4CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					216,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAHMKAAAAAAAAcwoAAAAAAAAGAAAAd3BfZW5xcwoAAAAAAADBCgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeQoAAAAAAAB5CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					217,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIYKAAAAAAAAhgoAAAAAAAALAAAAaGFuZGxlX25hbWU",
+					"AQAAAAAAAAABAAAAhgoAAAAAAACRCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					218,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAAIUKAAAAAAAAhQoAAAAAAAABAAAAJ4UKAAAAAAAAhQoAAAAAAAABAAAAJw",
+					"AQAAAAAAAAABAAAAhgoAAAAAAACGCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					219,
+					6,
+					"left_delete",
+					null,
+					"BgAAAIQKAAAAAAAAhAoAAAAAAAABAAAAKIMKAAAAAAAAgwoAAAAAAAABAAAAdIIKAAAAAAAAggoAAAAAAAABAAAAcIEKAAAAAAAAgQoAAAAAAAABAAAAaYAKAAAAAAAAgAoAAAAAAAABAAAAcn8KAAAAAAAAfwoAAAAAAAABAAAAYw",
+					"AQAAAAAAAAABAAAAhQoAAAAAAACFCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					220,
+					37,
+					"right_delete",
+					null,
+					"JQAAAH8KAAAAAAAAfwoAAAAAAAABAAAALH8KAAAAAAAAfwoAAAAAAAABAAAAIH8KAAAAAAAAfwoAAAAAAAABAAAAJ38KAAAAAAAAfwoAAAAAAAABAAAAc38KAAAAAAAAfwoAAAAAAAABAAAAb38KAAAAAAAAfwoAAAAAAAABAAAAdX8KAAAAAAAAfwoAAAAAAAABAAAAcn8KAAAAAAAAfwoAAAAAAAABAAAAY38KAAAAAAAAfwoAAAAAAAABAAAAZX8KAAAAAAAAfwoAAAAAAAABAAAAJ38KAAAAAAAAfwoAAAAAAAABAAAALH8KAAAAAAAAfwoAAAAAAAABAAAAIH8KAAAAAAAAfwoAAAAAAAABAAAAYX8KAAAAAAAAfwoAAAAAAAABAAAAcn8KAAAAAAAAfwoAAAAAAAABAAAAcn8KAAAAAAAAfwoAAAAAAAABAAAAYX8KAAAAAAAAfwoAAAAAAAABAAAAeX8KAAAAAAAAfwoAAAAAAAABAAAAKH8KAAAAAAAAfwoAAAAAAAABAAAAJ38KAAAAAAAAfwoAAAAAAAABAAAAan8KAAAAAAAAfwoAAAAAAAABAAAAcX8KAAAAAAAAfwoAAAAAAAABAAAAdX8KAAAAAAAAfwoAAAAAAAABAAAAZX8KAAAAAAAAfwoAAAAAAAABAAAAcn8KAAAAAAAAfwoAAAAAAAABAAAAeX8KAAAAAAAAfwoAAAAAAAABAAAAJ38KAAAAAAAAfwoAAAAAAAABAAAAKX8KAAAAAAAAfwoAAAAAAAABAAAALH8KAAAAAAAAfwoAAAAAAAABAAAAIH8KAAAAAAAAfwoAAAAAAAABAAAAJ38KAAAAAAAAfwoAAAAAAAABAAAAdn8KAAAAAAAAfwoAAAAAAAABAAAAZX8KAAAAAAAAfwoAAAAAAAABAAAAcn8KAAAAAAAAfwoAAAAAAAABAAAAc38KAAAAAAAAfwoAAAAAAAABAAAAaX8KAAAAAAAAfwoAAAAAAAABAAAAb38KAAAAAAAAfwoAAAAAAAABAAAAbg",
+					"AQAAAAAAAAABAAAAfwoAAAAAAAB/CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					221,
+					9,
+					"right_delete",
+					null,
+					"CQAAAH8KAAAAAAAAfwoAAAAAAAABAAAAJ38KAAAAAAAAfwoAAAAAAAABAAAALH8KAAAAAAAAfwoAAAAAAAABAAAAIH8KAAAAAAAAfwoAAAAAAAABAAAAZn8KAAAAAAAAfwoAAAAAAAABAAAAYX8KAAAAAAAAfwoAAAAAAAABAAAAbH8KAAAAAAAAfwoAAAAAAAABAAAAc38KAAAAAAAAfwoAAAAAAAABAAAAZX8KAAAAAAAAfwoAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAfwoAAAAAAAB/CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					222,
+					1,
+					"insert",
+					{
+						"characters": "typ"
+					},
+					"AwAAAH8KAAAAAAAAgAoAAAAAAAAAAAAAgAoAAAAAAACBCgAAAAAAAAAAAACBCgAAAAAAAIIKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfwoAAAAAAAB/CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					223,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIEKAAAAAAAAgQoAAAAAAAABAAAAcA",
+					"AQAAAAAAAAABAAAAggoAAAAAAACCCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					224,
+					1,
+					"insert",
+					{
+						"characters": "le"
+					},
+					"AgAAAIEKAAAAAAAAggoAAAAAAAAAAAAAggoAAAAAAACDCgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgQoAAAAAAACBCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					225,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAIMKAAAAAAAAhQoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwoAAAAAAACDCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					229,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAIQKAAAAAAAAhQoAAAAAAAAAAAAAhQoAAAAAAACGCgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhAoAAAAAAACECgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					231,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAIUKAAAAAAAAhwoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhQoAAAAAAACFCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					232,
+					1,
+					"insert",
+					{
+						"characters": "newam"
+					},
+					"BQAAAIYKAAAAAAAAhwoAAAAAAAAAAAAAhwoAAAAAAACICgAAAAAAAAAAAACICgAAAAAAAIkKAAAAAAAAAAAAAIkKAAAAAAAAigoAAAAAAAAAAAAAigoAAAAAAACLCgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhgoAAAAAAACGCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					233,
+					1,
+					"insert",
+					{
+						"characters": "erykah-"
+					},
+					"BwAAAIsKAAAAAAAAjAoAAAAAAAAAAAAAjAoAAAAAAACNCgAAAAAAAAAAAACNCgAAAAAAAI4KAAAAAAAAAAAAAI4KAAAAAAAAjwoAAAAAAAAAAAAAjwoAAAAAAACQCgAAAAAAAAAAAACQCgAAAAAAAJEKAAAAAAAAAAAAAJEKAAAAAAAAkgoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiwoAAAAAAACLCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					234,
+					1,
+					"insert",
+					{
+						"characters": "css"
+					},
+					"AwAAAJIKAAAAAAAAkwoAAAAAAAAAAAAAkwoAAAAAAACUCgAAAAAAAAAAAACUCgAAAAAAAJUKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgoAAAAAAACSCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					236,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAJYKAAAAAAAAlwoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlgoAAAAAAACWCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					237,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAJcKAAAAAAAAmAoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlwoAAAAAAACXCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					238,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAJgKAAAAAAAAmgoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAoAAAAAAACYCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					239,
+					1,
+					"insert",
+					{
+						"characters": "$templ"
+					},
+					"BgAAAJkKAAAAAAAAmgoAAAAAAAAAAAAAmgoAAAAAAACbCgAAAAAAAAAAAACbCgAAAAAAAJwKAAAAAAAAAAAAAJwKAAAAAAAAnQoAAAAAAAAAAAAAnQoAAAAAAACeCgAAAAAAAAAAAACeCgAAAAAAAJ8KAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmQoAAAAAAACZCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					240,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAJoKAAAAAAAAmgoAAAAAAAAFAAAAdGVtcGyaCgAAAAAAAKMKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnwoAAAAAAACfCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					241,
+					1,
+					"insert",
+					{
+						"characters": "/style"
+					},
+					"BgAAAKMKAAAAAAAApAoAAAAAAAAAAAAApAoAAAAAAAClCgAAAAAAAAAAAAClCgAAAAAAAKYKAAAAAAAAAAAAAKYKAAAAAAAApwoAAAAAAAAAAAAApwoAAAAAAACoCgAAAAAAAAAAAACoCgAAAAAAAKkKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAowoAAAAAAACjCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					242,
+					1,
+					"insert",
+					{
+						"characters": ".css"
+					},
+					"BAAAAKkKAAAAAAAAqgoAAAAAAAAAAAAAqgoAAAAAAACrCgAAAAAAAAAAAACrCgAAAAAAAKwKAAAAAAAAAAAAAKwKAAAAAAAArQoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqQoAAAAAAACpCgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    35074b5 sfv\n           2ae3d08 dvdo\n           2fded28 wEewf\n\n  UNSTAGED:\n    newamerykah.php\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+			"settings":
+			{
+				"buffer_size": 1775,
+				"line_ending": "Unix",
+				"name": "STATUS: newamerykah",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    \n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"help":
+							[
+								133,
+								1719
+							],
+							"no_status_message":
+							[
+								95,
+								133
+							]
+						}
+					},
+					"AQAAAAAAAAAAAAAAuAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    2fded28 wEewf\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								107
+							],
+							"help":
+							[
+								146,
+								1732
+							],
+							"no_status_message":
+							[
+								108,
+								146
+							]
+						}
+					},
+					"AQAAAAAAAAAAAAAAxQYAAAAAAAC4BgAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIAoKICAgIFlvdXIgd29ya2luZyBkaXJlY3RvcnkgaXMgY2xlYW4uCgogICMjIyMjIyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIyMjCiAgIyMgU0VMRUNURUQgRklMRSAjIyAgICAgICAgICAgICAgICAgICAjIyBBTEwgRklMRVMgIyMKICAjIyMjIyMjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMjIwoKICBbb10gb3BlbiBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgIFthXSBzdGFnZSBhbGwgdW5zdGFnZWQgZmlsZXMKICBbc10gc3RhZ2UgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgIFtBXSBzdGFnZSBhbGwgdW5zdGFnZWQgYW5kIHVudHJhY2tlZCBmaWxlcwogIFt1XSB1bnN0YWdlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgW1VdIHVuc3RhZ2UgYWxsIHN0YWdlZCBmaWxlcwogIFtkXSBkaXNjYXJkIGNoYW5nZXMgdG8gZmlsZSAgICAgICAgICAgW0RdIGRpc2NhcmQgYWxsIHVuc3RhZ2VkIGNoYW5nZXMKICBbaF0gb3BlbiBmaWxlIG9uIHJlbW90ZQogIFtNXSBsYXVuY2ggZXh0ZXJuYWwgbWVyZ2UgdG9vbAoKICBbbF0gZGlmZiBmaWxlIGlubGluZSAgICAgICAgICAgICAgICAgIFtmXSBkaWZmIGFsbCBmaWxlcwogIFtlXSBkaWZmIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICAgW0ZdIGRpZmYgYWxsIGNhY2hlZCBmaWxlcwoKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKICAjIyBBQ1RJT05TICMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIFNUQVNIRVMgIyMKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKCiAgW2NdIGNvbW1pdCAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bYV0gYXBwbHkgc3Rhc2gKICBbQ10gY29tbWl0LCBpbmNsdWRpbmcgdW5zdGFnZWQgICAgICAgIFt0XVtwXSBwb3Agc3Rhc2gKICBbbV0gYW1lbmQgcHJldmlvdXMgY29tbWl0ICAgICAgICAgICAgIFtvXSAgICBvcGVuIHN0YXNoCiAgW3BdIHB1c2ggY3VycmVudCBicmFuY2ggICAgICAgICAgICAgICBbdF1bY10gY3JlYXRlIHN0YXNoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bdV0gY3JlYXRlIHN0YXNoIGluY2x1ZGluZyB1bnRyYWNrZWQgZmlsZXMKICBbaV0gaWdub3JlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgIFt0XVtnXSBjcmVhdGUgc3Rhc2ggb2Ygc3RhZ2VkIGNoYW5nZXMgb25seQogIFtJXSBpZ25vcmUgcGF0dGVybiAgICAgICAgICAgICAgICAgICAgW3RdW2RdIGRyb3Agc3Rhc2gKCiAgW0JdIGFib3J0IG1lcmdlCgogICMjIyMjIyMjIyMjCiAgIyMgT1RIRVIgIyMKICAjIyMjIyMjIyMjIwoKICBbZ10gICAgICAgICBzaG93IGdyYXBoIHJlcG8gaGlzdG9yeQogIFs/XSAgICAgICAgIHRvZ2dsZSB0aGlzIGhlbHAgbWVudQogIFt0YWJdICAgICAgIHRyYW5zaXRpb24gdG8gbmV4dCBkYXNoYm9hcmQKICBbU0hJRlQtdGFiXSB0cmFuc2l0aW9uIHRvIHByZXZpb3VzIGRhc2hib2FyZAogIFsuXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIG5leHQgZmlsZQogIFssXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIHByZXZpb3VzIGZpbGUKCi0KCg",
+					"AQAAAAAAAAABAAAAZAAAAAAAAABkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    2fded28 wEewf\n\n  UNTRACKED:\n    newamerykah.php\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								107
+							],
+							"help":
+							[
+								142,
+								1728
+							],
+							"untracked_files":
+							[
+								108,
+								142
+							]
+						}
+					},
+					"AQAAAAAAAAAAAAAAwQYAAAAAAADFBgAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIDJmZGVkMjggd0Vld2YKCiAgICBZb3VyIHdvcmtpbmcgZGlyZWN0b3J5IGlzIGNsZWFuLgoKICAjIyMjIyMjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMjIwogICMjIFNFTEVDVEVEIEZJTEUgIyMgICAgICAgICAgICAgICAgICAgIyMgQUxMIEZJTEVTICMjCiAgIyMjIyMjIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjIyMKCiAgW29dIG9wZW4gZmlsZSAgICAgICAgICAgICAgICAgICAgICAgICBbYV0gc3RhZ2UgYWxsIHVuc3RhZ2VkIGZpbGVzCiAgW3NdIHN0YWdlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICBbQV0gc3RhZ2UgYWxsIHVuc3RhZ2VkIGFuZCB1bnRyYWNrZWQgZmlsZXMKICBbdV0gdW5zdGFnZSBmaWxlICAgICAgICAgICAgICAgICAgICAgIFtVXSB1bnN0YWdlIGFsbCBzdGFnZWQgZmlsZXMKICBbZF0gZGlzY2FyZCBjaGFuZ2VzIHRvIGZpbGUgICAgICAgICAgIFtEXSBkaXNjYXJkIGFsbCB1bnN0YWdlZCBjaGFuZ2VzCiAgW2hdIG9wZW4gZmlsZSBvbiByZW1vdGUKICBbTV0gbGF1bmNoIGV4dGVybmFsIG1lcmdlIHRvb2wKCiAgW2xdIGRpZmYgZmlsZSBpbmxpbmUgICAgICAgICAgICAgICAgICBbZl0gZGlmZiBhbGwgZmlsZXMKICBbZV0gZGlmZiBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgIFtGXSBkaWZmIGFsbCBjYWNoZWQgZmlsZXMKCiAgIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjCiAgIyMgQUNUSU9OUyAjIyAgICAgICAgICAgICAgICAgICAgICAgICAjIyBTVEFTSEVTICMjCiAgIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjCgogIFtjXSBjb21taXQgICAgICAgICAgICAgICAgICAgICAgICAgICAgW3RdW2FdIGFwcGx5IHN0YXNoCiAgW0NdIGNvbW1pdCwgaW5jbHVkaW5nIHVuc3RhZ2VkICAgICAgICBbdF1bcF0gcG9wIHN0YXNoCiAgW21dIGFtZW5kIHByZXZpb3VzIGNvbW1pdCAgICAgICAgICAgICBbb10gICAgb3BlbiBzdGFzaAogIFtwXSBwdXNoIGN1cnJlbnQgYnJhbmNoICAgICAgICAgICAgICAgW3RdW2NdIGNyZWF0ZSBzdGFzaAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW3RdW3VdIGNyZWF0ZSBzdGFzaCBpbmNsdWRpbmcgdW50cmFja2VkIGZpbGVzCiAgW2ldIGlnbm9yZSBmaWxlICAgICAgICAgICAgICAgICAgICAgICBbdF1bZ10gY3JlYXRlIHN0YXNoIG9mIHN0YWdlZCBjaGFuZ2VzIG9ubHkKICBbSV0gaWdub3JlIHBhdHRlcm4gICAgICAgICAgICAgICAgICAgIFt0XVtkXSBkcm9wIHN0YXNoCgogIFtCXSBhYm9ydCBtZXJnZQoKICAjIyMjIyMjIyMjIwogICMjIE9USEVSICMjCiAgIyMjIyMjIyMjIyMKCiAgW2ddICAgICAgICAgc2hvdyBncmFwaCByZXBvIGhpc3RvcnkKICBbP10gICAgICAgICB0b2dnbGUgdGhpcyBoZWxwIG1lbnUKICBbdGFiXSAgICAgICB0cmFuc2l0aW9uIHRvIG5leHQgZGFzaGJvYXJkCiAgW1NISUZULXRhYl0gdHJhbnNpdGlvbiB0byBwcmV2aW91cyBkYXNoYm9hcmQKICBbLl0gICAgICAgICBtb3ZlIGN1cnNvciB0byBuZXh0IGZpbGUKICBbLF0gICAgICAgICBtb3ZlIGN1cnNvciB0byBwcmV2aW91cyBmaWxlCgotCgo",
+					"AQAAAAAAAAABAAAAFQEAAAAAAAAVAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"gs_status_stage_all_files_with_untracked",
+					null,
+					"AQAAAAAAAAAAAAAAvgYAAAAAAADBBgAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIDJmZGVkMjggd0Vld2YKCiAgVU5UUkFDS0VEOgogICAgbmV3YW1lcnlrYWgucGhwCgogICMjIyMjIyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIyMjCiAgIyMgU0VMRUNURUQgRklMRSAjIyAgICAgICAgICAgICAgICAgICAjIyBBTEwgRklMRVMgIyMKICAjIyMjIyMjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMjIwoKICBbb10gb3BlbiBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgIFthXSBzdGFnZSBhbGwgdW5zdGFnZWQgZmlsZXMKICBbc10gc3RhZ2UgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgIFtBXSBzdGFnZSBhbGwgdW5zdGFnZWQgYW5kIHVudHJhY2tlZCBmaWxlcwogIFt1XSB1bnN0YWdlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgW1VdIHVuc3RhZ2UgYWxsIHN0YWdlZCBmaWxlcwogIFtkXSBkaXNjYXJkIGNoYW5nZXMgdG8gZmlsZSAgICAgICAgICAgW0RdIGRpc2NhcmQgYWxsIHVuc3RhZ2VkIGNoYW5nZXMKICBbaF0gb3BlbiBmaWxlIG9uIHJlbW90ZQogIFtNXSBsYXVuY2ggZXh0ZXJuYWwgbWVyZ2UgdG9vbAoKICBbbF0gZGlmZiBmaWxlIGlubGluZSAgICAgICAgICAgICAgICAgIFtmXSBkaWZmIGFsbCBmaWxlcwogIFtlXSBkaWZmIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICAgW0ZdIGRpZmYgYWxsIGNhY2hlZCBmaWxlcwoKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKICAjIyBBQ1RJT05TICMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIFNUQVNIRVMgIyMKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKCiAgW2NdIGNvbW1pdCAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bYV0gYXBwbHkgc3Rhc2gKICBbQ10gY29tbWl0LCBpbmNsdWRpbmcgdW5zdGFnZWQgICAgICAgIFt0XVtwXSBwb3Agc3Rhc2gKICBbbV0gYW1lbmQgcHJldmlvdXMgY29tbWl0ICAgICAgICAgICAgIFtvXSAgICBvcGVuIHN0YXNoCiAgW3BdIHB1c2ggY3VycmVudCBicmFuY2ggICAgICAgICAgICAgICBbdF1bY10gY3JlYXRlIHN0YXNoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bdV0gY3JlYXRlIHN0YXNoIGluY2x1ZGluZyB1bnRyYWNrZWQgZmlsZXMKICBbaV0gaWdub3JlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgIFt0XVtnXSBjcmVhdGUgc3Rhc2ggb2Ygc3RhZ2VkIGNoYW5nZXMgb25seQogIFtJXSBpZ25vcmUgcGF0dGVybiAgICAgICAgICAgICAgICAgICAgW3RdW2RdIGRyb3Agc3Rhc2gKCiAgW0JdIGFib3J0IG1lcmdlCgogICMjIyMjIyMjIyMjCiAgIyMgT1RIRVIgIyMKICAjIyMjIyMjIyMjIwoKICBbZ10gICAgICAgICBzaG93IGdyYXBoIHJlcG8gaGlzdG9yeQogIFs/XSAgICAgICAgIHRvZ2dsZSB0aGlzIGhlbHAgbWVudQogIFt0YWJdICAgICAgIHRyYW5zaXRpb24gdG8gbmV4dCBkYXNoYm9hcmQKICBbU0hJRlQtdGFiXSB0cmFuc2l0aW9uIHRvIHByZXZpb3VzIGRhc2hib2FyZAogIFsuXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIG5leHQgZmlsZQogIFssXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIHByZXZpb3VzIGZpbGUKCi0KCg",
+					"AQAAAAAAAAABAAAAeQAAAAAAAAB5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					2,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    2ae3d08 dvdo\n           2fded28 wEewf\n              ` ​(origin/main)\n\n  STAGED:\n    newamerykah.php\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								162
+							],
+							"help":
+							[
+								194,
+								1780
+							],
+							"staged_files":
+							[
+								163,
+								194
+							]
+						}
+					},
+					"AQAAAF4AAAAAAAAAogAAAAAAAAANAAAAMmZkZWQyOCB3RWV3Zg",
+					"AQAAAAAAAAABAAAAeQAAAAAAAAB5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n           You're ahead by 1.\n  HEAD:    2ae3d08 dvdo\n           2fded28 wEewf\n              ` ​(origin/main)\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								112
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								124,
+								192
+							],
+							"help":
+							[
+								231,
+								1817
+							],
+							"no_status_message":
+							[
+								193,
+								231
+							]
+						}
+					},
+					"AQAAAAAAAAAAAAAAGgcAAAAAAAD3BgAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIDJhZTNkMDggZHZkbwogICAgICAgICAgIDJmZGVkMjggd0Vld2YKICAgICAgICAgICAgICBgIOKAiyhvcmlnaW4vbWFpbikKCiAgU1RBR0VEOgogICAgbmV3YW1lcnlrYWgucGhwCgogICMjIyMjIyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIyMjCiAgIyMgU0VMRUNURUQgRklMRSAjIyAgICAgICAgICAgICAgICAgICAjIyBBTEwgRklMRVMgIyMKICAjIyMjIyMjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMjIwoKICBbb10gb3BlbiBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgIFthXSBzdGFnZSBhbGwgdW5zdGFnZWQgZmlsZXMKICBbc10gc3RhZ2UgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgIFtBXSBzdGFnZSBhbGwgdW5zdGFnZWQgYW5kIHVudHJhY2tlZCBmaWxlcwogIFt1XSB1bnN0YWdlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgW1VdIHVuc3RhZ2UgYWxsIHN0YWdlZCBmaWxlcwogIFtkXSBkaXNjYXJkIGNoYW5nZXMgdG8gZmlsZSAgICAgICAgICAgW0RdIGRpc2NhcmQgYWxsIHVuc3RhZ2VkIGNoYW5nZXMKICBbaF0gb3BlbiBmaWxlIG9uIHJlbW90ZQogIFtNXSBsYXVuY2ggZXh0ZXJuYWwgbWVyZ2UgdG9vbAoKICBbbF0gZGlmZiBmaWxlIGlubGluZSAgICAgICAgICAgICAgICAgIFtmXSBkaWZmIGFsbCBmaWxlcwogIFtlXSBkaWZmIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICAgW0ZdIGRpZmYgYWxsIGNhY2hlZCBmaWxlcwoKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKICAjIyBBQ1RJT05TICMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIFNUQVNIRVMgIyMKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKCiAgW2NdIGNvbW1pdCAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bYV0gYXBwbHkgc3Rhc2gKICBbQ10gY29tbWl0LCBpbmNsdWRpbmcgdW5zdGFnZWQgICAgICAgIFt0XVtwXSBwb3Agc3Rhc2gKICBbbV0gYW1lbmQgcHJldmlvdXMgY29tbWl0ICAgICAgICAgICAgIFtvXSAgICBvcGVuIHN0YXNoCiAgW3BdIHB1c2ggY3VycmVudCBicmFuY2ggICAgICAgICAgICAgICBbdF1bY10gY3JlYXRlIHN0YXNoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bdV0gY3JlYXRlIHN0YXNoIGluY2x1ZGluZyB1bnRyYWNrZWQgZmlsZXMKICBbaV0gaWdub3JlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgIFt0XVtnXSBjcmVhdGUgc3Rhc2ggb2Ygc3RhZ2VkIGNoYW5nZXMgb25seQogIFtJXSBpZ25vcmUgcGF0dGVybiAgICAgICAgICAgICAgICAgICAgW3RdW2RdIGRyb3Agc3Rhc2gKCiAgW0JdIGFib3J0IG1lcmdlCgogICMjIyMjIyMjIyMjCiAgIyMgT1RIRVIgIyMKICAjIyMjIyMjIyMjIwoKICBbZ10gICAgICAgICBzaG93IGdyYXBoIHJlcG8gaGlzdG9yeQogIFs/XSAgICAgICAgIHRvZ2dsZSB0aGlzIGhlbHAgbWVudQogIFt0YWJdICAgICAgIHRyYW5zaXRpb24gdG8gbmV4dCBkYXNoYm9hcmQKICBbU0hJRlQtdGFiXSB0cmFuc2l0aW9uIHRvIHByZXZpb3VzIGRhc2hib2FyZAogIFsuXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIG5leHQgZmlsZQogIFssXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIHByZXZpb3VzIGZpbGUKCi0KCg",
+					"AQAAAAAAAAABAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    2ae3d08 dvdo\n           2fded28 wEewf\n              ` ​(origin/main)\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								162
+							],
+							"help":
+							[
+								201,
+								1787
+							],
+							"no_status_message":
+							[
+								163,
+								201
+							]
+						}
+					},
+					"AQAAACoAAAAAAAAAUgAAAAAAAABGAAAAT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogICAgICAgICAgIFlvdSdyZSBhaGVhZCBieSAxLg",
+					"AQAAAAAAAAABAAAAxgAAAAAAAADGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    2ae3d08 dvdo\n           2fded28 wEewf\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								131
+							],
+							"help":
+							[
+								170,
+								1756
+							],
+							"no_status_message":
+							[
+								132,
+								170
+							]
+						}
+					},
+					"AQAAAF4AAAAAAAAAgwAAAAAAAABGAAAAMmFlM2QwOCBkdmRvCiAgICAgICAgICAgMmZkZWQyOCB3RWV3ZgogICAgICAgICAgICAgIGAg4oCLKG9yaWdpbi9tYWluKQ",
+					"AQAAAAAAAAABAAAAqAAAAAAAAACoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    2ae3d08 dvdo\n           2fded28 wEewf\n\n  UNSTAGED:\n    newamerykah.php\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								131
+							],
+							"help":
+							[
+								165,
+								1751
+							],
+							"unstaged_files":
+							[
+								132,
+								165
+							]
+						}
+					},
+					"AQAAAAAAAAAAAAAA2AYAAAAAAADdBgAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIDJhZTNkMDggZHZkbwogICAgICAgICAgIDJmZGVkMjggd0Vld2YKCiAgICBZb3VyIHdvcmtpbmcgZGlyZWN0b3J5IGlzIGNsZWFuLgoKICAjIyMjIyMjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMjIwogICMjIFNFTEVDVEVEIEZJTEUgIyMgICAgICAgICAgICAgICAgICAgIyMgQUxMIEZJTEVTICMjCiAgIyMjIyMjIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjIyMKCiAgW29dIG9wZW4gZmlsZSAgICAgICAgICAgICAgICAgICAgICAgICBbYV0gc3RhZ2UgYWxsIHVuc3RhZ2VkIGZpbGVzCiAgW3NdIHN0YWdlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICBbQV0gc3RhZ2UgYWxsIHVuc3RhZ2VkIGFuZCB1bnRyYWNrZWQgZmlsZXMKICBbdV0gdW5zdGFnZSBmaWxlICAgICAgICAgICAgICAgICAgICAgIFtVXSB1bnN0YWdlIGFsbCBzdGFnZWQgZmlsZXMKICBbZF0gZGlzY2FyZCBjaGFuZ2VzIHRvIGZpbGUgICAgICAgICAgIFtEXSBkaXNjYXJkIGFsbCB1bnN0YWdlZCBjaGFuZ2VzCiAgW2hdIG9wZW4gZmlsZSBvbiByZW1vdGUKICBbTV0gbGF1bmNoIGV4dGVybmFsIG1lcmdlIHRvb2wKCiAgW2xdIGRpZmYgZmlsZSBpbmxpbmUgICAgICAgICAgICAgICAgICBbZl0gZGlmZiBhbGwgZmlsZXMKICBbZV0gZGlmZiBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgIFtGXSBkaWZmIGFsbCBjYWNoZWQgZmlsZXMKCiAgIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjCiAgIyMgQUNUSU9OUyAjIyAgICAgICAgICAgICAgICAgICAgICAgICAjIyBTVEFTSEVTICMjCiAgIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjCgogIFtjXSBjb21taXQgICAgICAgICAgICAgICAgICAgICAgICAgICAgW3RdW2FdIGFwcGx5IHN0YXNoCiAgW0NdIGNvbW1pdCwgaW5jbHVkaW5nIHVuc3RhZ2VkICAgICAgICBbdF1bcF0gcG9wIHN0YXNoCiAgW21dIGFtZW5kIHByZXZpb3VzIGNvbW1pdCAgICAgICAgICAgICBbb10gICAgb3BlbiBzdGFzaAogIFtwXSBwdXNoIGN1cnJlbnQgYnJhbmNoICAgICAgICAgICAgICAgW3RdW2NdIGNyZWF0ZSBzdGFzaAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW3RdW3VdIGNyZWF0ZSBzdGFzaCBpbmNsdWRpbmcgdW50cmFja2VkIGZpbGVzCiAgW2ldIGlnbm9yZSBmaWxlICAgICAgICAgICAgICAgICAgICAgICBbdF1bZ10gY3JlYXRlIHN0YXNoIG9mIHN0YWdlZCBjaGFuZ2VzIG9ubHkKICBbSV0gaWdub3JlIHBhdHRlcm4gICAgICAgICAgICAgICAgICAgIFt0XVtkXSBkcm9wIHN0YXNoCgogIFtCXSBhYm9ydCBtZXJnZQoKICAjIyMjIyMjIyMjIwogICMjIE9USEVSICMjCiAgIyMjIyMjIyMjIyMKCiAgW2ddICAgICAgICAgc2hvdyBncmFwaCByZXBvIGhpc3RvcnkKICBbP10gICAgICAgICB0b2dnbGUgdGhpcyBoZWxwIG1lbnUKICBbdGFiXSAgICAgICB0cmFuc2l0aW9uIHRvIG5leHQgZGFzaGJvYXJkCiAgW1NISUZULXRhYl0gdHJhbnNpdGlvbiB0byBwcmV2aW91cyBkYXNoYm9hcmQKICBbLl0gICAgICAgICBtb3ZlIGN1cnNvciB0byBuZXh0IGZpbGUKICBbLF0gICAgICAgICBtb3ZlIGN1cnNvciB0byBwcmV2aW91cyBmaWxlCgotCgo",
+					"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					101,
+					1,
+					"gs_status_stage_all_files_with_untracked",
+					null,
+					"AQAAAAAAAAAAAAAA1gYAAAAAAADYBgAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIDJhZTNkMDggZHZkbwogICAgICAgICAgIDJmZGVkMjggd0Vld2YKCiAgVU5TVEFHRUQ6CiAgICBuZXdhbWVyeWthaC5waHAKCiAgIyMjIyMjIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjIyMKICAjIyBTRUxFQ1RFRCBGSUxFICMjICAgICAgICAgICAgICAgICAgICMjIEFMTCBGSUxFUyAjIwogICMjIyMjIyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIyMjCgogIFtvXSBvcGVuIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICAgW2FdIHN0YWdlIGFsbCB1bnN0YWdlZCBmaWxlcwogIFtzXSBzdGFnZSBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgW0FdIHN0YWdlIGFsbCB1bnN0YWdlZCBhbmQgdW50cmFja2VkIGZpbGVzCiAgW3VdIHVuc3RhZ2UgZmlsZSAgICAgICAgICAgICAgICAgICAgICBbVV0gdW5zdGFnZSBhbGwgc3RhZ2VkIGZpbGVzCiAgW2RdIGRpc2NhcmQgY2hhbmdlcyB0byBmaWxlICAgICAgICAgICBbRF0gZGlzY2FyZCBhbGwgdW5zdGFnZWQgY2hhbmdlcwogIFtoXSBvcGVuIGZpbGUgb24gcmVtb3RlCiAgW01dIGxhdW5jaCBleHRlcm5hbCBtZXJnZSB0b29sCgogIFtsXSBkaWZmIGZpbGUgaW5saW5lICAgICAgICAgICAgICAgICAgW2ZdIGRpZmYgYWxsIGZpbGVzCiAgW2VdIGRpZmYgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgICBbRl0gZGlmZiBhbGwgY2FjaGVkIGZpbGVzCgogICMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIwogICMjIEFDVElPTlMgIyMgICAgICAgICAgICAgICAgICAgICAgICAgIyMgU1RBU0hFUyAjIwogICMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIwoKICBbY10gY29tbWl0ICAgICAgICAgICAgICAgICAgICAgICAgICAgIFt0XVthXSBhcHBseSBzdGFzaAogIFtDXSBjb21taXQsIGluY2x1ZGluZyB1bnN0YWdlZCAgICAgICAgW3RdW3BdIHBvcCBzdGFzaAogIFttXSBhbWVuZCBwcmV2aW91cyBjb21taXQgICAgICAgICAgICAgW29dICAgIG9wZW4gc3Rhc2gKICBbcF0gcHVzaCBjdXJyZW50IGJyYW5jaCAgICAgICAgICAgICAgIFt0XVtjXSBjcmVhdGUgc3Rhc2gKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFt0XVt1XSBjcmVhdGUgc3Rhc2ggaW5jbHVkaW5nIHVudHJhY2tlZCBmaWxlcwogIFtpXSBpZ25vcmUgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgW3RdW2ddIGNyZWF0ZSBzdGFzaCBvZiBzdGFnZWQgY2hhbmdlcyBvbmx5CiAgW0ldIGlnbm9yZSBwYXR0ZXJuICAgICAgICAgICAgICAgICAgICBbdF1bZF0gZHJvcCBzdGFzaAoKICBbQl0gYWJvcnQgbWVyZ2UKCiAgIyMjIyMjIyMjIyMKICAjIyBPVEhFUiAjIwogICMjIyMjIyMjIyMjCgogIFtnXSAgICAgICAgIHNob3cgZ3JhcGggcmVwbyBoaXN0b3J5CiAgWz9dICAgICAgICAgdG9nZ2xlIHRoaXMgaGVscCBtZW51CiAgW3RhYl0gICAgICAgdHJhbnNpdGlvbiB0byBuZXh0IGRhc2hib2FyZAogIFtTSElGVC10YWJdIHRyYW5zaXRpb24gdG8gcHJldmlvdXMgZGFzaGJvYXJkCiAgWy5dICAgICAgICAgbW92ZSBjdXJzb3IgdG8gbmV4dCBmaWxlCiAgWyxdICAgICAgICAgbW92ZSBjdXJzb3IgdG8gcHJldmlvdXMgZmlsZQoKLQoK",
+					"AQAAAAAAAAABAAAA1QEAAAAAAADVAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					107,
+					2,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    35074b5 sfv\n           2ae3d08 dvdo\n              ` ​(origin/main)\n           2fded28 wEewf\n\n  STAGED:\n    newamerykah.php\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								185
+							],
+							"help":
+							[
+								217,
+								1803
+							],
+							"staged_files":
+							[
+								186,
+								217
+							]
+						}
+					},
+					"AQAAAF4AAAAAAAAAuQAAAAAAAAAlAAAAMmFlM2QwOCBkdmRvCiAgICAgICAgICAgMmZkZWQyOCB3RWV3Zg",
+					"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n           You're ahead by 1.\n  HEAD:    35074b5 sfv\n           2ae3d08 dvdo\n              ` ​(origin/main)\n           2fded28 wEewf\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								112
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								124,
+								215
+							],
+							"help":
+							[
+								254,
+								1840
+							],
+							"no_status_message":
+							[
+								216,
+								254
+							]
+						}
+					},
+					"AQAAAAAAAAAAAAAAMQcAAAAAAAAOBwAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIDM1MDc0YjUgc2Z2CiAgICAgICAgICAgMmFlM2QwOCBkdmRvCiAgICAgICAgICAgICAgYCDigIsob3JpZ2luL21haW4pCiAgICAgICAgICAgMmZkZWQyOCB3RWV3ZgoKICBTVEFHRUQ6CiAgICBuZXdhbWVyeWthaC5waHAKCiAgIyMjIyMjIyMjIyMjIyMjIyMjIyAgICAgICAgICAgICAgICAgICAjIyMjIyMjIyMjIyMjIyMKICAjIyBTRUxFQ1RFRCBGSUxFICMjICAgICAgICAgICAgICAgICAgICMjIEFMTCBGSUxFUyAjIwogICMjIyMjIyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIyMjCgogIFtvXSBvcGVuIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICAgW2FdIHN0YWdlIGFsbCB1bnN0YWdlZCBmaWxlcwogIFtzXSBzdGFnZSBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgW0FdIHN0YWdlIGFsbCB1bnN0YWdlZCBhbmQgdW50cmFja2VkIGZpbGVzCiAgW3VdIHVuc3RhZ2UgZmlsZSAgICAgICAgICAgICAgICAgICAgICBbVV0gdW5zdGFnZSBhbGwgc3RhZ2VkIGZpbGVzCiAgW2RdIGRpc2NhcmQgY2hhbmdlcyB0byBmaWxlICAgICAgICAgICBbRF0gZGlzY2FyZCBhbGwgdW5zdGFnZWQgY2hhbmdlcwogIFtoXSBvcGVuIGZpbGUgb24gcmVtb3RlCiAgW01dIGxhdW5jaCBleHRlcm5hbCBtZXJnZSB0b29sCgogIFtsXSBkaWZmIGZpbGUgaW5saW5lICAgICAgICAgICAgICAgICAgW2ZdIGRpZmYgYWxsIGZpbGVzCiAgW2VdIGRpZmYgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgICBbRl0gZGlmZiBhbGwgY2FjaGVkIGZpbGVzCgogICMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIwogICMjIEFDVElPTlMgIyMgICAgICAgICAgICAgICAgICAgICAgICAgIyMgU1RBU0hFUyAjIwogICMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIwoKICBbY10gY29tbWl0ICAgICAgICAgICAgICAgICAgICAgICAgICAgIFt0XVthXSBhcHBseSBzdGFzaAogIFtDXSBjb21taXQsIGluY2x1ZGluZyB1bnN0YWdlZCAgICAgICAgW3RdW3BdIHBvcCBzdGFzaAogIFttXSBhbWVuZCBwcmV2aW91cyBjb21taXQgICAgICAgICAgICAgW29dICAgIG9wZW4gc3Rhc2gKICBbcF0gcHVzaCBjdXJyZW50IGJyYW5jaCAgICAgICAgICAgICAgIFt0XVtjXSBjcmVhdGUgc3Rhc2gKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFt0XVt1XSBjcmVhdGUgc3Rhc2ggaW5jbHVkaW5nIHVudHJhY2tlZCBmaWxlcwogIFtpXSBpZ25vcmUgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgW3RdW2ddIGNyZWF0ZSBzdGFzaCBvZiBzdGFnZWQgY2hhbmdlcyBvbmx5CiAgW0ldIGlnbm9yZSBwYXR0ZXJuICAgICAgICAgICAgICAgICAgICBbdF1bZF0gZHJvcCBzdGFzaAoKICBbQl0gYWJvcnQgbWVyZ2UKCiAgIyMjIyMjIyMjIyMKICAjIyBPVEhFUiAjIwogICMjIyMjIyMjIyMjCgogIFtnXSAgICAgICAgIHNob3cgZ3JhcGggcmVwbyBoaXN0b3J5CiAgWz9dICAgICAgICAgdG9nZ2xlIHRoaXMgaGVscCBtZW51CiAgW3RhYl0gICAgICAgdHJhbnNpdGlvbiB0byBuZXh0IGRhc2hib2FyZAogIFtTSElGVC10YWJdIHRyYW5zaXRpb24gdG8gcHJldmlvdXMgZGFzaGJvYXJkCiAgWy5dICAgICAgICAgbW92ZSBjdXJzb3IgdG8gbmV4dCBmaWxlCiAgWyxdICAgICAgICAgbW92ZSBjdXJzb3IgdG8gcHJldmlvdXMgZmlsZQoKLQoK",
+					"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					117,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    35074b5 sfv\n           2ae3d08 dvdo\n              ` ​(origin/main)\n           2fded28 wEewf\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								185
+							],
+							"help":
+							[
+								224,
+								1810
+							],
+							"no_status_message":
+							[
+								186,
+								224
+							]
+						}
+					},
+					"AQAAACoAAAAAAAAAUgAAAAAAAABGAAAAT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogICAgICAgICAgIFlvdSdyZSBhaGVhZCBieSAxLg",
+					"AQAAAAAAAAABAAAA3QAAAAAAAADdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					120,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    35074b5 sfv\n           2ae3d08 dvdo\n           2fded28 wEewf\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								154
+							],
+							"help":
+							[
+								193,
+								1779
+							],
+							"no_status_message":
+							[
+								155,
+								193
+							]
+						}
+					},
+					"AQAAAF4AAAAAAAAAmgAAAAAAAABdAAAAMzUwNzRiNSBzZnYKICAgICAgICAgICAyYWUzZDA4IGR2ZG8KICAgICAgICAgICAgICBgIOKAiyhvcmlnaW4vbWFpbikKICAgICAgICAgICAyZmRlZDI4IHdFZXdm",
+					"AQAAAAAAAAABAAAAvwAAAAAAAAC/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					136,
+					1,
+					"gs_new_content_and_regions",
+					{
+						"content": "\n  ROOT:    ~/www/newamerykah\n\n  BRANCH:  On branch `main` tracking `origin/main`.\n  HEAD:    35074b5 sfv\n           2ae3d08 dvdo\n           2fded28 wEewf\n\n  UNSTAGED:\n    newamerykah.php\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [o]    open stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [g]         show graph repo history\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+						"regions":
+						{
+							"branch_status":
+							[
+								42,
+								82
+							],
+							"git_root":
+							[
+								12,
+								29
+							],
+							"head":
+							[
+								94,
+								154
+							],
+							"help":
+							[
+								188,
+								1774
+							],
+							"unstaged_files":
+							[
+								155,
+								188
+							]
+						}
+					},
+					"AQAAAAAAAAAAAAAA7wYAAAAAAAD0BgAACiAgUk9PVDogICAgfi93d3cvbmV3YW1lcnlrYWgKCiAgQlJBTkNIOiAgT24gYnJhbmNoIGBtYWluYCB0cmFja2luZyBgb3JpZ2luL21haW5gLgogIEhFQUQ6ICAgIDM1MDc0YjUgc2Z2CiAgICAgICAgICAgMmFlM2QwOCBkdmRvCiAgICAgICAgICAgMmZkZWQyOCB3RWV3ZgoKICAgIFlvdXIgd29ya2luZyBkaXJlY3RvcnkgaXMgY2xlYW4uCgogICMjIyMjIyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgIyMjIyMjIyMjIyMjIyMjCiAgIyMgU0VMRUNURUQgRklMRSAjIyAgICAgICAgICAgICAgICAgICAjIyBBTEwgRklMRVMgIyMKICAjIyMjIyMjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMjIwoKICBbb10gb3BlbiBmaWxlICAgICAgICAgICAgICAgICAgICAgICAgIFthXSBzdGFnZSBhbGwgdW5zdGFnZWQgZmlsZXMKICBbc10gc3RhZ2UgZmlsZSAgICAgICAgICAgICAgICAgICAgICAgIFtBXSBzdGFnZSBhbGwgdW5zdGFnZWQgYW5kIHVudHJhY2tlZCBmaWxlcwogIFt1XSB1bnN0YWdlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgW1VdIHVuc3RhZ2UgYWxsIHN0YWdlZCBmaWxlcwogIFtkXSBkaXNjYXJkIGNoYW5nZXMgdG8gZmlsZSAgICAgICAgICAgW0RdIGRpc2NhcmQgYWxsIHVuc3RhZ2VkIGNoYW5nZXMKICBbaF0gb3BlbiBmaWxlIG9uIHJlbW90ZQogIFtNXSBsYXVuY2ggZXh0ZXJuYWwgbWVyZ2UgdG9vbAoKICBbbF0gZGlmZiBmaWxlIGlubGluZSAgICAgICAgICAgICAgICAgIFtmXSBkaWZmIGFsbCBmaWxlcwogIFtlXSBkaWZmIGZpbGUgICAgICAgICAgICAgICAgICAgICAgICAgW0ZdIGRpZmYgYWxsIGNhY2hlZCBmaWxlcwoKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKICAjIyBBQ1RJT05TICMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIFNUQVNIRVMgIyMKICAjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICMjIyMjIyMjIyMjIyMKCiAgW2NdIGNvbW1pdCAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bYV0gYXBwbHkgc3Rhc2gKICBbQ10gY29tbWl0LCBpbmNsdWRpbmcgdW5zdGFnZWQgICAgICAgIFt0XVtwXSBwb3Agc3Rhc2gKICBbbV0gYW1lbmQgcHJldmlvdXMgY29tbWl0ICAgICAgICAgICAgIFtvXSAgICBvcGVuIHN0YXNoCiAgW3BdIHB1c2ggY3VycmVudCBicmFuY2ggICAgICAgICAgICAgICBbdF1bY10gY3JlYXRlIHN0YXNoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbdF1bdV0gY3JlYXRlIHN0YXNoIGluY2x1ZGluZyB1bnRyYWNrZWQgZmlsZXMKICBbaV0gaWdub3JlIGZpbGUgICAgICAgICAgICAgICAgICAgICAgIFt0XVtnXSBjcmVhdGUgc3Rhc2ggb2Ygc3RhZ2VkIGNoYW5nZXMgb25seQogIFtJXSBpZ25vcmUgcGF0dGVybiAgICAgICAgICAgICAgICAgICAgW3RdW2RdIGRyb3Agc3Rhc2gKCiAgW0JdIGFib3J0IG1lcmdlCgogICMjIyMjIyMjIyMjCiAgIyMgT1RIRVIgIyMKICAjIyMjIyMjIyMjIwoKICBbZ10gICAgICAgICBzaG93IGdyYXBoIHJlcG8gaGlzdG9yeQogIFs/XSAgICAgICAgIHRvZ2dsZSB0aGlzIGhlbHAgbWVudQogIFt0YWJdICAgICAgIHRyYW5zaXRpb24gdG8gbmV4dCBkYXNoYm9hcmQKICBbU0hJRlQtdGFiXSB0cmFuc2l0aW9uIHRvIHByZXZpb3VzIGRhc2hib2FyZAogIFsuXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIG5leHQgZmlsZQogIFssXSAgICAgICAgIG1vdmUgY3Vyc29yIHRvIHByZXZpb3VzIGZpbGUKCi0KCg",
+					"AQAAAAAAAAABAAAAmwAAAAAAAACbAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/home/happychildren/www/_data/wp-content/themes/navalachy/style.css",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"push",
+				"git: push"
+			],
+			[
+				"com",
+				"git: quick commit"
+			],
+			[
+				"comm",
+				"git: quick commit"
+			],
+			[
+				"git st",
+				"git: status"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"edt ser",
+				"SFTP: Edit Server…"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"edit",
+				"SFTP: Edit Server…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"commi",
+				"git: commit"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"color ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mater",
+				"Material Theme: Configuration"
+			],
+			[
+				"mate",
+				"Material Theme: Extras"
+			],
+			[
+				"materi",
+				"Material Theme: Configuration"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"auto",
+				"AutoFileName: Default Settings"
+			],
+			[
+				"jscs",
+				"JSCS Formatter: Format this file"
+			],
+			[
+				"qc",
+				"git: quick commit"
+			],
+			[
+				"qui",
+				"git: quick commit"
+			],
+			[
+				"q",
+				"git: quick commit"
+			],
+			[
+				"quic",
+				"git: quick commit"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"commit",
+				"git: quick commit"
+			],
+			[
+				"stat",
+				"git: status"
+			],
+			[
+				"sta",
+				"git: status"
+			],
+			[
+				"pus",
+				"git: push"
+			],
+			[
+				"git s",
+				"git: status"
+			],
+			[
+				"mer",
+				"git: merge"
+			],
+			[
+				"git me",
+				"git: merge"
+			],
+			[
+				"git pull",
+				"git: pull"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"igno",
+				"git: ignore current file"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ignore",
+				"git: ignore current file"
+			],
+			[
+				"issue",
+				"github: open issues"
+			],
+			[
+				"puh",
+				"git: push"
+			],
+			[
+				"git",
+				"git: push"
+			],
+			[
+				"remote",
+				"git: remote remove"
+			],
+			[
+				"GIT ST",
+				"git: status"
+			],
+			[
+				"git push",
+				"git: push (force-with-lease)"
+			],
+			[
+				"pu",
+				"git: push to existing branch"
+			],
+			[
+				"commit ",
+				"git: commit including unstaged files"
+			],
+			[
+				"git pu",
+				"git: push to branch name"
+			],
+			[
+				"stage",
+				"git: quick stage"
+			],
+			[
+				"git ",
+				"git: Repo History"
+			],
+			[
+				"git di",
+				"git: diff"
+			],
+			[
+				"git comm",
+				"git: quick commit"
+			],
+			[
+				"git add",
+				"git: remote add"
+			],
+			[
+				"copilo",
+				"Preferences: LSP-copilot Settings"
+			],
+			[
+				"git pus",
+				"git: push (force)"
+			],
+			[
+				"git remote",
+				"git: remote add"
+			],
+			[
+				"statu",
+				"git: status"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ui ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"brows",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/happychildren/www/newamerykah",
+		"/home/happychildren/www/newamerykah/t"
+	],
+	"file_history":
+	[
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/inc/functions-nv.php",
+		"/tmp/sublime-sftp-browse-1677859519/iosidev.json/front-page.php",
+		"/tmp/sublime-sftp-browse-1677844721/iosidev.json/assets/style.css",
+		"/tmp/sublime-sftp-browse-1677844777/iosiproducts.json/front-page.php",
+		"/tmp/sublime-sftp-browse-1677844748/iosiproducts.json/assets/style.css",
+		"/tmp/sublime-sftp-browse-1677838955/iosidev.json/front-page.php",
+		"/tmp/sublime-sftp-browse-1677844183/iosiproducts.json/wp-content/themes/iosi-global/front-page.php",
+		"/tmp/sublime-sftp-browse-1677840170/iosidev.json/assets/script.js",
+		"/tmp/sublime-sftp-browse-1677844565/iosidev.json/assets/style.css",
+		"/home/happychildren/.config/sublime-text/Packages/User/sftp_servers/iosidev.json",
+		"/tmp/sublime-sftp-browse-1677844544/iosidev.json/assets/style.css",
+		"/tmp/sublime-sftp-browse-1677844315/iosidev.json/assets/style.css",
+		"/tmp/sublime-sftp-browse-1677844277/iosidev.json/assets/style.less",
+		"/home/happychildren/.config/sublime-text/Packages/User/sftp_servers/nv.json",
+		"/tmp/sublime-sftp-browse-1677840379/iosidev.json/page-0.php",
+		"/home/happychildren/.config/sublime-text/Packages/User/sftp_servers/iosiproducts.json",
+		"/tmp/sublime-sftp-browse-1677840115/iosidev.json/captcha.js",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/UI/cover-image.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/framework.js",
+		"/home/happychildren/new vault/NV/NV Tasks, Bugs, Features, Whatnot.md",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/UI/gallery.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/UI/responsive-image.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/domster.js",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/icons/style.css",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/functions.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/front-page.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/c/form.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/tips/c/feed.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/c/feed.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/style.less",
+		"/home/happychildren/www/_data/wp-config.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/i/lib.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/page/page-test.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/header.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/woocommerce/checkout/review-order.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/inc/functions-woocommerce.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/ajax.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/slider.js",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/blog/t/feed-item.html",
+		"/home/happychildren/.config/sublime-text/Packages/User/nvajax.sublime-snippet",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/blog/c/feed.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/blog/ajax.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/index.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/blog/archive.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/UI/t/gallery-item.html",
+		"/home/happychildren/.config/sublime-text/Packages/User/disableunregisterednotice.py",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/tips/ajax.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/.home.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/archive.php",
+		"/home/happychildren/.config/sublime-text/Packages/User/nvnewcomponent.sublime-snippet",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/e/order-complete.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/sync.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/woocommerce.css",
+		"/home/happychildren/.config/sublime-text/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/single.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/functions-global.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/page/page-booking-confirmed.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/accomodation/a/booking.js",
+		"/home/happychildren/.config/sublime-text/Packages/AutoFileName/autofilename.sublime-settings",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/tips/template-tags.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/tips/functions.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/booking/booking.js",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/tips/feed.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Experiences/feed.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/email.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/booking.js",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/woocommerce/checkout/form-billing.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/legacy.css",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/.archive.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/.single.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/functions.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/page-test.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/style-kiosek.less",
+		"/home/happychildren/www/_data/wp-includes/functions.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/hello-week.min.css",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/form.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/footer.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Experiences/archive.php",
+		"/home/happychildren/www/_data/wp-content/plugins/pods/tribe-common/vendor/datatables/datatables.css",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/dashboard/accomodation/page-listings-single.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/dashboard/accomodation/page-listings.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/dashboard/accomodation/page.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/woocommerce/myaccount/form-login.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Experiences/tags.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Accomodation/single.php",
+		"/home/happychildren/www/_data/wp-content/plugins/woocommerce/templates/myaccount/form-login.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Accomodation/archive.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/single.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Accomodation/feed.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/lib.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/ical.php",
+		"/home/happychildren/mail.html",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/page-admin-accomodation.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/assets/lightbox/lightbox.min.css",
+		"/home/happychildren/www/_data/wp-content/debug.log",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/dashboard/accomodation/page-calendar.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/dashboard/accomodation/page-reservations.php",
+		"/home/happychildren/www/_data/wp-content/plugins/woocommerce/includes/class-wc-order.php",
+		"/home/happychildren/www/_data/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Experiences/functions.php",
+		"/home/happychildren/www/_data/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/dashboard/functions.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/TODO.txt",
+		"/home/happychildren/www/_data/wp-content/plugins/woocommerce/includes/class-wc-checkout.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/woocommerce/checkout/form-checkout.php",
+		"/home/happychildren/www/_data/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php",
+		"/home/happychildren/www/_data/wp-content/plugins/pods/classes/PodsMeta.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/page-thankyou.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/admin/accomodation.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/inc/functions-email.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/lib-ical-export.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/Booking/log.txt",
+		"/home/happychildren/Downloads/events (1).ics",
+		"/home/happychildren/Downloads/iCal.ics",
+		"/home/happychildren/Downloads/listing-678926269602502617.ics",
+		"/home/happychildren/Downloads/events.ics",
+		"/home/happychildren/www/_data/ical.php",
+		"/home/happychildren/www/_data/wp-config-docker.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/archive.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/single-accomodation.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/template-parts/content-page.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/template-parts/content.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/search.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/template-parts/content-search.php",
+		"/home/happychildren/www/_data/wp-content/themes/navalachy/page.php",
+		"/home/happychildren/www/_data/wp-includes/class-wpdb.php",
+		"/home/happychildren/www/_data/wp-content/plugins/wp-booking-system/includes/abstracts/abstract-class-object-db.php",
+		"/home/happychildren/www/_data/wp-content/plugins/wp-booking-system/includes/base/booking/functions.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"weight",
+			"calc(var(--header-nav) - 2 * var(--header-space))",
+			"nv-button",
+			"$_VAR",
+			"calendar_",
+			"session_start",
+			"fon",
+			"f",
+			"div",
+			"WP_DEB",
+			"WP_DEBUG_DISPLAY",
+			"NV_DEV",
+			"WP_DEBUG",
+			"hello-week.min.css",
+			"hoverca",
+			"$_",
+			"gallery-item",
+			"feed-item",
+			"nv-feed-item",
+			"slider_items",
+			"templ",
+			"btn-cl",
+			"btn-",
+			"start",
+			".box",
+			"box",
+			"disabled_",
+			"nv-items",
+			"body",
+			"booking/assets/booking.js",
+			"[\"nvbk\"]",
+			"nv_template_accomodation",
+			"nv_template_hovercard",
+			"modal-close",
+			"disabled",
+			"apartmentName",
+			"apartmentId",
+			"peopleLimit",
+			"$",
+			"meta_",
+			"exper",
+			".content(",
+			"woocommerce_order_status_completed",
+			"'woocommerce_order_edit_status'",
+			"remot",
+			"people",
+			"nvbk_isbooking",
+			"session_start",
+			"$_SESSION",
+			"$_SESSION\\",
+			"$_SESSION",
+			"message",
+			"function checkout_form_billing",
+			"'woocommerce_checkout_billing'",
+			"priceFie",
+			"get_post_meta",
+			"get_disabled",
+			"apartmentId",
+			"wpbs_submit_form",
+			"$_GET",
+			"nv_experiences_fetch",
+			"$",
+			"left:.*\\n.*top",
+			"left:.*\\ntop",
+			".layer",
+			"width: 100%;\\n.*height: 100%",
+			"width: 100%;.*height: 100%",
+			"tipy",
+			"zazitky",
+			"tipy",
+			"ubytovani",
+			"zazitky",
+			"ubytovani",
+			"zazitky",
+			"ubytovani",
+			"zazitky",
+			"tipy",
+			"font-lg",
+			"WP_Q",
+			".space-around-(..) {.*}",
+			"$ids",
+			"availa",
+			"avail",
+			"nvic",
+			"calcul",
+			"spinner",
+			"today",
+			"price",
+			"spinnerno",
+			"disabledD",
+			"apartment",
+			"cal.setMinMax",
+			"otherSelector",
+			"dateSelected",
+			"calendarSelected[\"end\"]",
+			"calendarSelected[\"begin\"]",
+			"calendarSelected[otherSelector]",
+			"Range",
+			"calendar[selector]",
+			"calendar[\"end\"]",
+			"calendar[\"begin\"]",
+			"calendarSelected[selector]",
+			"calendarSelected[theOther]",
+			"calendarDateToString",
+			"calendarset",
+			"calendarShow",
+			"calculateRates",
+			"calendarSetMinMax",
+			"calendarShown",
+			"function\\((.*)\\){",
+			"constructor",
+			"construct",
+			".reservation-",
+			"reservation-datepicker-",
+			"#reservation-datepicker-",
+			"range",
+			"function",
+			"NV_FRONTEND_MODULES",
+			"url",
+			"ini_",
+			"secondary)-",
+			"breakpoint-lg",
+			"var(--breakpoint-lg)",
+			"var(--breakpoint-md)",
+			"var(--breakpoint-sm)",
+			"@shadow-lg",
+			"@shadow-md",
+			"@radius-lg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"slider_feed",
+			"disable",
+			"apartment_name",
+			"apartment_id",
+			"capacity",
+			".html(",
+			"experiences",
+			"accomodation",
+			"experiences",
+			"accomodation",
+			"experiences",
+			".space-around-$1 { margin-top: var(--space-$1); margin-bottom: var(--space-$1); }",
+			"cal.redraw",
+			"cal[\"end\"].selected",
+			"cal[\"begin\"].selected",
+			"cal[otherSelector].selected",
+			"cal[selector].hw",
+			"cal[\"end\"].hw",
+			"cal[\"begin\"].hw",
+			"cal[selector].selected",
+			"cal[theOther].selected",
+			"cal[theOsther].selected",
+			"cal.dateToString",
+			"cal.set",
+			"cal.show",
+			"cal.calculateRates",
+			"cal.setMinMax",
+			"\\($1\\) => {",
+			"#field-",
+			"datepicker-",
+			"#datepicker-",
+			"public function",
+			"NV_MODULES",
+			"@breakpoint-md",
+			"@breakpoint-sm",
+			"var(--shadow-lg)",
+			"var(--shadow-md)",
+			"var(--radius-lg)",
+			"var(--radius-md)",
+			"var(--radius-sm)",
+			"var(--breakpoint-lg)",
+			"var(--breakpoint-md)",
+			"var(--breakpoint-sm)",
+			"var(--font-xxxl)",
+			"var(--font-xxl)",
+			"var(--font-xl)",
+			"var(--font-hg)",
+			"var(--font-lg)",
+			"var(--font-md)",
+			"var(--font-sm)",
+			"var(--text-paragraph-color)",
+			"var(--color-ui-bg)",
+			"var(--color-ui-header-bg)",
+			"var(--color-ui-grey)",
+			"var(--text-paragraph-color)",
+			"var(--secondary)",
+			"var(--primary)"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "newamerykah.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2741,
+								2741
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1876.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": false,
+							"default_dir": "/tmp/sublime-sftp-browse-1677859519/iosidev.json",
+							"git_savvy.help_hidden": false,
+							"git_savvy.interface": "status",
+							"git_savvy.repo_path": "/home/happychildren/www/newamerykah",
+							"git_savvy.status_view": true,
+							"git_savvy.tabbable": true,
+							"incomplete_sync": null,
+							"result_base_dir": "/home/happychildren/www/newamerykah",
+							"result_file_regex": "^(?:    .+ -> |  [ -] (?!\\(\\d+\\) ))(?!Your working directory is clean\\.)(\\S.*)$",
+							"syntax": "Packages/GitSavvy/syntax/status.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/happychildren/www/_data/wp-content/themes/navalachy/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								101
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 120.0
+	},
+	"output.SFTP":
+	{
+		"height": 120.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "newamerykah.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cover",
+				"navalachy/templates/cover-image.php"
+			],
+			[
+				"cove",
+				"navalachy/template-parts/cover-image.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
