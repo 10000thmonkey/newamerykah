@@ -1,7 +1,7 @@
 <?php
 
 nv_new_c (
-    "c/responsive-image",
+    "c/img",
     function ( $VAR )
     {
         $VAR = array_merge( [
