@@ -10,7 +10,7 @@ nv_new_c (
 		], $VAR );
 
 		if ($VAR["logo"])
-			$VAR["logo"] = "<img src='/wp-content/plugins/a/iosi-global-logo.svg'>";
+			$VAR["logo"] = "<img src='/wp-content/plugins/newamerykah/a/iosi-global-logo.svg'>";
 
 		return <<<HTML
 		<header class="site-header-iosi space-around-hg rows center">
