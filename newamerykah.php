@@ -126,5 +126,6 @@ function nv_ajax ( $endpoint, $callback )
 
 
 wp_enqueue_style( "newamerykah-css", "{$templ_dir}style.css" );
-
+wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/style.css" );
+wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" );
 ?>
