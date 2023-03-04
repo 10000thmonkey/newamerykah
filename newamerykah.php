@@ -45,7 +45,7 @@ function nv_c ( $path, $VAR = array(), $print = false )
         return $nv_controllers[ $path ]( $VAR );
     }
     else {
-        trigger_error( "Component does not exist!", E_USER_WARNING);
+        trigger_error( "Component $path does not exist!", E_USER_WARNING);
         return false;
     }
 }
