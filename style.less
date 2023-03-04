@@ -7,6 +7,8 @@
 }
 
 body {
+	--primary: var(--iosigrey);
+	--secondary: var(--iosigold);
 	--text-primary: var(--iosigold);
     --text-secondary: var(--iosigrey);
 
@@ -16,7 +18,7 @@ body {
     --ui-button-active-fill: linear-gradient(to right, rgb(255 255 255 / 67%), rgb(255 255 255 / 38%) );
     --ui-button-active-text: var(--iosidark);
 
-	*, h2, h1 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
+	h1, h2, h3, h4, h5, h6 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
 	p { color: var(--text-secondary); }
 
 
@@ -28,6 +30,8 @@ body {
 	}
 }
 body.whiteamerykah {
+	--primary: var(--iosidark);
+	--secondary: var(--iosigold);
 	--text-primary: var(--iosigold);
 	--text-secondary: var(--iosidark);
 	background: white;
