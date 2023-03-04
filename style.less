@@ -1,3 +1,21 @@
+:root {
+    --iosidark: #161428;
+    --iosilight: #211c35;
+    --iosigrey: #cecece;
+    --iosigold: #b39a55;
+    --iosigoldligth: #f4d98d;
+
+
+    --text-primary: var(--iosigold);
+    --text-secondary: var(--iosigrey);
+}
+body.whiteamerykah {
+	--text-primary: var(--iosigold);
+	--text-secondary: var(--iosidark);
+}
+
+
+
 #feed {
 	article {
 		background-color: var(--iosigold);
@@ -169,13 +187,7 @@ node-select {
 
 body {margin:0;padding: 0;background-color: var(--iosilight);}
 *, h2, h1 {font-family: Montserrat;box-sizing: border-box;}
-:root {
-    --iosidark: #161428;
-    --iosilight: #211c35;
-    --iosigrey: #cecece;
-    --iosigold: #b39a55;
-    --iosigoldligth: #f4d98d;
-}
+
 
 .crossword h1, .crossword p {color: var(--iosigrey)};
 
@@ -271,18 +283,22 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 
 
 
-
-header h1 {
-	font-weight: 500;
-	font-size: 40px;
-	color: var(--iosigold);
-	text-align: center;
-	text-transform: uppercase;
-}
-header span {
-	font-weight: 500;
-	color: var(--iosigrey);
-
+.site-header {
+	img {
+		height: 80px;
+		width: 80px;
+	}
+	h1 {
+		font-weight: 500;
+		font-size: 40px;
+		color: var(--iosigold);
+		text-align: center;
+		text-transform: uppercase;
+	}
+	span {
+		font-weight: 500;
+		color: var(--iosigrey);
+	}
 }
 
 

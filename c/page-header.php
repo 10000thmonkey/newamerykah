@@ -4,16 +4,19 @@ nv_new_c (
 	function ( $VAR )
 	{
 		$VAR = array_merge( [
+			"logo" => false,
 			"h1" => "",
 			"h2" => "",
 		], $VAR );
 
-		
+		if ($VAR["logo"])
+			$VAR["logo"] = "<img src='/wp-content/plugins/a/iosi-global-logo.svg'>";
 
 		return <<<HTML
-		<header class="space-around-hg rows center">
-			<h1>{$h1}</h1>
-			<span>{$h2}</span>
+		<header class="site-header space-around-hg rows center">
+			{$VAR["logo"]}
+			<h1>{$VAR["h1"]}</h1>
+			<span>{$VAR["h2"]}</span>
 		</header>
 		HTML;
 	}
