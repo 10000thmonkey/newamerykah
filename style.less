@@ -10,6 +10,12 @@ body {
 	--text-primary: var(--iosigold);
     --text-secondary: var(--iosigrey);
 
+    --ui-bg: var(--iosidark);
+    --ui-accent: var(--iosigold);
+    --ui-text: var(--iosigold);
+    --ui-button-active-fill: linear-gradient(to right, rgb(255 255 255 / 67%), rgb(255 255 255 / 38%) );
+    --ui-button-active-text: var(--iosidark);
+
     .bg-wrapper {
     	background-repeat: no-repeat;
     	background-position: center;
@@ -21,6 +27,12 @@ body.whiteamerykah {
 	--text-primary: var(--iosigold);
 	--text-secondary: var(--iosidark);
 	background: white;
+
+    --ui-bg: white;
+    --ui-accent: var(--iosigold);
+    --ui-text: var(--iosidark);
+    --ui-button-active-fill: var(--iosidark);
+    --ui-button-active-text: var(--iosigold);
 
 	.bg-wrapper {
 		background-color: white;
@@ -90,17 +102,16 @@ body.whiteamerykah {
 }
 
 
-a.node-button, .node-button {
+a.node-button, .node-button, .filters-button-group button {
 	display: flex;
-	background-color: var(--iosidark);
-	color: var(--iosigold);
-	border: 1px solid var(--iosigold);
+	background-color: var(--ui-bg);
+	color: var(--ui-text);
+	border: 1px solid var(--ui-accent);
 	padding: 15px;
 	height: 60px;
 	border-radius: 30px;
 	text-align: center;
 	text-transform: uppercase;
-	color: var(--iosigold);
 	font-weight: 500;
 	transition: 200ms ease all;
     justify-content: center;
@@ -120,7 +131,7 @@ a.node-button, .node-button {
 
 	&:before {
 		content: "";
-	    background-image: linear-gradient(to right, rgb(255 255 255 / 67%), rgb(255 255 255 / 38%) );
+	    background: var(--ui-button-fill);
 	    position: absolute;
 	    z-index: -1;
 	    width: 100%;
@@ -132,12 +143,13 @@ a.node-button, .node-button {
 	}
 
 	&:hover,
-	&[href="https://products.iosi.global/"] {
+	&[href="https://products.iosi.global/"],
+	&.is-checked {
 		//border-color: var(--iosigoldligth);
 		background-color: transparent;
-	    color: var(--iosidark);
+	    color: var(--ui-button-active-text);
 
-	    span { color: var(--iosidark) !important; }
+	    span { color: var(--ui-button-active-text) !important; }
 	    &:before { opacity: 1; }
 	}
 }
@@ -380,7 +392,7 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 	gap: 30px;
 	margin: 0 auto;
 	max-width: 1000px;
-	overflow: hidden;
+	width: 100%;
 
 	a {
 		display: flex;
@@ -388,6 +400,7 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 		border-radius: 30px;
 		background: white;
 		border: 1px solid var(--iosigold);
+		overflow: hidden;
 
 		img {width: 100%;}
 
