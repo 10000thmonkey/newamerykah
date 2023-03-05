@@ -137,6 +137,14 @@ if ( ! is_admin() )
             add_theme_support( 'title-tag' );
         }
     );
+
+    add_action( "wp_head", function() {
+    ?>
+
+    <meta name="theme-color" content="#211c35">
+
+    <?php    
+    } );
 }
 
 function wpdt_header_style() {}
