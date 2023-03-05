@@ -145,6 +145,10 @@ if ( ! is_admin() )
 
     <?php    
     } );
+
+    add_action( "wp_footer", function() {
+        echo nv_t("t/footer");  
+    } );
 }
 
 function wpdt_header_style() {}
