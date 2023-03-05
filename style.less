@@ -20,6 +20,7 @@ body {
     --ui-button-active-text: var(--iosidark);
 
 	h1, h2, h3, h4, h5, h6 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
+	h2 {font-size: var(--font-hg);}
 	p { color: var(--text-secondary); }
 	* {box-sizing: border-box;}
 
@@ -134,12 +135,13 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
     backdrop-filter: blur(15px);
 	flex-direction: column;
 	user-select: none;
+	transition: 50ms ease color;
 
 	span {
 		font-size: 13px;
 		color: var(--iosigrey);
 		text-transform: none;
-		transition: 200ms ease all;
+		transition: 50ms ease color;
 	}
 
 	&:before {
@@ -152,7 +154,7 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 	    top: 0;
 	    left: 0;
 	    opacity: 0;
-	    transition: 200ms ease-out opacity, 1000ms ease-out transform;
+	    transition: 100ms ease-out opacity, 500ms ease-out transform;
 	}
 
 	&:hover,
