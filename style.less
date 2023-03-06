@@ -170,6 +170,32 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 }
 
 
+.accordeon {
+	.accordeon-radio {display: none;}
+	.accordeon-content {
+		max-height: 0;
+		overflow: hidden;
+		transition: 300ms ease-out max-height;
+	}
+	.accordeon-radio:checked + .accordeon-content {
+		max-height: 200vh;
+	}
+	.accordeon-radio:checked + .accordeon-toggle:after {
+		transform: rotate(180deg);
+	}		
+	.accordeon-toggle {
+		:after {
+			content: '\25BC';
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 1em;
+			pointer-events: none;
+			transition: 200ms ease all;
+		}
+	}
+}
+
 
 node-select {
 	position: relative;
