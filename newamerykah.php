@@ -143,6 +143,13 @@ add_filter(
 
 
 
+add_action( "after_setup_theme",
+    function() {
+        add_theme_support( 'title-tag' );
+        add_theme_support('post-thumbnails', array( 'post', 'page', 'custom-post-type-name' ));
+
+    }
+);
 
 
 
@@ -154,12 +161,6 @@ if ( ! is_admin() )
     wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
 
     add_filter( "show_admin_bar", "__return_false" );
-
-    add_action( "after_setup_theme",
-        function() {
-            add_theme_support( 'title-tag' );
-        }
-    );
 
     add_action( "wp_head", function() {
     ?>
