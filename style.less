@@ -444,10 +444,10 @@ node-select {
 		border: 1px solid var(--iosigold);
 		overflow: hidden;
 
-		img {width: 100%;}
+		img { width: 100%; object-fit: cover; aspect-ratio: 1.61803398875; }
 
-		h1 { font-size: 24px; padding: 15px; color: var(--text-secondary); text-decoration: none; }
-		p { padding: 15px; margin: 0; color: var(--text-secondary); text-decoration: none; }
+		h1 { font-size: 24px; color: var(--text-secondary); text-decoration: none; }
+		p { margin: 0; color: var(--text-secondary); text-decoration: none; }
 	}
 
 	&.newsfeed-mobile { @media(min-width: 800px) { display:none; } }
