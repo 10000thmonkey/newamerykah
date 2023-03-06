@@ -177,10 +177,10 @@ body {margin:0;padding: 0;background-color: var(--iosilight);}
 		overflow: hidden;
 		transition: 300ms ease-out max-height;
 	}
-	.accordeon-radio:checked + .accordeon-content {
+	.accordeon-radio:checked ~ .accordeon-content {
 		max-height: 200vh;
 	}
-	.accordeon-radio:checked + .accordeon-toggle:after {
+	.accordeon-radio:checked ~ .accordeon-toggle:after {
 		transform: rotate(180deg);
 	}		
 	.accordeon-toggle {
