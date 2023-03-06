@@ -124,6 +124,29 @@ function nv_ajax ( $endpoint, $callback )
     add_action( "wp_ajax_nopriv_nv_$endpoint", $passing );
 }
 
+
+
+
+
+
+
+
+add_filter(
+    'upload_mimes',
+    function ($mimes) {
+        $mimes['svg'] = 'image/svg+xml';
+        return $mimes;
+    }
+);
+
+
+
+
+
+
+
+
+
 if ( ! is_admin() )
 {
     wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/style.css" );
