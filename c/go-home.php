@@ -13,7 +13,7 @@ nv_new_c (
 		return <<<HTML
 
 		<div class="header header-nav">
-			<a href="{$link}">
+			<a href="{$VAR["link"]}">
 				<span style="transform: rotate(90deg);">▼</span>
 				<img src="https://iosi.global/wp-content/uploads/2021/07/logo-2022.svg" height="60" style="height:60px">
 			</a>
