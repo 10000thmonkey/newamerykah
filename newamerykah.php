@@ -162,13 +162,13 @@ if ( ! is_admin() )
 
     add_filter( "show_admin_bar", "__return_false" );
 
+
     add_action( "wp_head", function() {
     ?>
-
-    <meta name="theme-color" content="#211c35">
-
+        <meta name="theme-color" content="#211c35">
     <?php    
     } );
+
 
     add_action( "wp_footer", function() {
         echo nv_t("t/footer");  
