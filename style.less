@@ -136,10 +136,7 @@ body.single {
 #theform {
 	background-color: var(--iosilight);
 	border-radius: 30px;
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
+	border: 1px solid var(--iosigold);
 
 	h3 {
 		color: var(--iosigrey);
@@ -321,9 +318,6 @@ node-select {
 
 
 
-
-
-
 .header {
     //position: sticky;
     top: 0;
@@ -372,29 +366,6 @@ node-select {
 }
 
 
-.logo {
-    position: relative;
-    width: 270px;
-    height: 300px;
-    transform-style: preserve-3d;
-    perspective: 150px;
-    pointer-events: none;
-    user-select: none;
-}
-@media (max-width: 1000px) {
-	.logo {
-	    width: 170px;
-    	height: 200px;
-	}
-}
-.logo div, .logo img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
 
 .site-header-iosi {
 	img {
@@ -442,34 +413,6 @@ node-select {
 }
 @media (max-width: 800px) {
 	.bg-wrapper .bg {top: 40vh; max-height: 72vw}
-}
-
-
-
-
-.page-wrapper {
-    position: relative;
-}
-.page-wrapper .page {
-    //position: absolute;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-}
-.page-wrapper .page:not(.shown) {
-    display: none;
-}
-
-
-.page-wrapper .page:not(.shown), .bg {
-    pointer-events: none;
-    opacity: 0;
-    transition: ease 500ms all;
-}
-.shown {
-    pointer-events: auto;
-    opacity: 1;
-    overflow: initial;
 }
 
 
