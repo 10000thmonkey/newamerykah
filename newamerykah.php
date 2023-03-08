@@ -150,9 +150,14 @@ add_action( "after_setup_theme",
 
         if ( ! is_admin() )
         {
-            wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/framework.css" );
-            wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" );
-            wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
+            add_action(
+                'wp_enqueue_scripts'.
+                function() {
+                    wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/framework.css" );
+                    wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" );
+                    wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
+                }
+            );
 
             add_filter( "show_admin_bar", "__return_false" );
 
