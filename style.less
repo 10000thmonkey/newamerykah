@@ -31,6 +31,7 @@ body.whiteamerykah {
 	--secondary: var(--iosigold);
 	--text-primary: var(--iosigold);
 	--text-secondary: var(--iosidark);
+	--text-paragraph-color: var(--iosidark);
 	background-color: white;
 
     --ui-bg: white;
@@ -68,10 +69,15 @@ body {
 	p {
 		color: var(--text-paragraph-color);
 		line-height: 1.5;
+
 	}
 
-	* {box-sizing: border-box; font-family: Montserrat;}
-	
+	* {
+		box-sizing: border-box;
+		font-family: Montserrat;
+		font-weight: 500;
+	}
+
 	&.single {
 		ul li { list-style-type: disc; padding-left: var(--space-md); }
 	}
