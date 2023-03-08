@@ -148,32 +148,31 @@ add_action( "after_setup_theme",
         add_theme_support( 'title-tag' );
         add_theme_support('post-thumbnails', array( 'post', 'page', 'custom-post-type-name' ));
 
+        if ( ! is_admin() )
+        {
+            wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/framework.css" );
+            wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" );
+            wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
+
+            add_filter( "show_admin_bar", "__return_false" );
+
+
+            add_action( "wp_head", function() {
+            ?>
+                <meta name="theme-color" content="#211c35">
+            <?php    
+            } );
+
+
+            add_action( "wp_footer", function() {
+                echo nv_t("t/footer");  
+            } );
+        }
     }
 );
 
 
 
-
-if ( ! is_admin() )
-{
-    wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/framework.css" );
-    wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" );
-    wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
-
-    add_filter( "show_admin_bar", "__return_false" );
-
-
-    add_action( "wp_head", function() {
-    ?>
-        <meta name="theme-color" content="#211c35">
-    <?php    
-    } );
-
-
-    add_action( "wp_footer", function() {
-        echo nv_t("t/footer");  
-    } );
-}
 
 function wpdt_header_style() {}
 ?>
