@@ -59,6 +59,7 @@ body {
 	h1, h2, h3, h4, h5, h6 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
 	h1 {
 		font-size: var(--font-xl);
+		font-weight: 700;
 	}
 	h2 {
 		font-size: var(--font-hg);
@@ -89,7 +90,17 @@ body {
 	    background-image: url("/wp-content/plugins/newamerykah/a/grad-bg-dark.png");
 	}
 }
-
+body.single {
+	@media(max-width: 1200px) {
+		font-size: var(--font-lg);
+	}
+	@media(max-width: 800px) {
+		font-size: var(--font-hg);
+	}
+	@media(max-width: 400px) {
+		font-size: var(--font-md);
+	}
+}
 
 
 #feed {
