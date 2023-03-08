@@ -264,7 +264,7 @@ node-select {
 		text-align: left !important;
 		transition: 200ms ease all;
 	
-		:after {
+		&:after {
 			content: '\25BC';
 			position: absolute;
 			top: 0;
@@ -301,7 +301,10 @@ node-select {
 		font-weight: 500;
 		transition: 200ms ease all;
 		cursor: pointer;
-
+		color: var(--iosidark);
+		&.selected {
+			background-color: var(--iosigold);
+		}
 		&:hover {
 			background-color: var(--iosigold);
 		}
