@@ -5,7 +5,8 @@ nv_new_c (
 	function ( $VAR )
 	{
 		$VAR = array_merge( [
-			"link" => "https://dev.iosi.global"
+			"link" => "https://dev.iosi.global",
+			"heading" => "IOSI GLOBAL",
 		], $VAR );
 
 		
@@ -16,6 +17,7 @@ nv_new_c (
 			<a href="{$VAR["link"]}">
 				<span style="transform: rotate(90deg);">▼</span>
 				<img src="https://iosi.global/wp-content/uploads/2021/07/logo-2022.svg" height="60" style="height:60px">
+				<span class="" style="font-size: var(--font-hg);">{$VAR["heading"]}</span>
 			</a>
 
 			<!--div class="header-left cols-flex center">

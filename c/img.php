@@ -11,6 +11,8 @@ nv_new_c (
             "alt" => "",
             "attachment_id" => 1,
             "nonresponsive" => false,
+            "class" => "",
+            "style" => "",
         ], $VAR );
 
 
@@ -37,6 +39,8 @@ nv_new_c (
                 sizes="'.esc_attr( $VAR["sizes"] ).'"
                 alt="'.esc_attr( $VAR['alt'] ).'"
                 title="'.esc_attr( $VAR['title']) .'"
-                loading="lazy" />';
+                loading="lazy"
+                style="'.esc_attr( $VAR["style"] ).'"
+                class="'.esc_attr( $VAR["class"] ).'"/>';
     }
 );
