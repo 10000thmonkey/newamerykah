@@ -21,7 +21,7 @@ Can be chained, e.g. q(selector).addClass().remove().content()...
 	ON FORMS
 	- serialize() - returns object of form inputs and values
 */
-
+ 
 
 jax = {
 	// jax.get (string url, function callback, function error)
