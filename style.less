@@ -21,22 +21,10 @@
 }
 .padding0 {padding: 0 !important;}
 
-body {
-	h1, h2, h3, h4, h5, h6 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
-	h2 {font-size: var(--font-hg); font-weight: 500;}
-	p { color: var(--text-secondary); }
-	* {box-sizing: border-box; font-family: Montserrat;}
-	&.single {
-		ul li { list-style-type: disc; padding-left: var(--space-md); }
-	}
 
-    .bg-wrapper {
-    	background-repeat: no-repeat;
-    	background-position: center;
-    	background-size: cover;
-	    background-image: url("/wp-content/plugins/newamerykah/a/grad-bg-dark.png");
-	}
-}
+
+// white theme
+
 body.whiteamerykah {
 	--primary: var(--iosidark);
 	--secondary: var(--iosigold);
@@ -54,6 +42,28 @@ body.whiteamerykah {
 		opacity: .5;
 		background-color: white;
 		background-image: url("/wp-content/plugins/newamerykah/a/grad-bg-light.png");
+	}
+}
+
+
+body {
+	h1, h2, h3, h4, h5, h6 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
+	h2 {
+		font-size: var(--font-hg);
+		font-weight: 500;
+		color: var(--primary);
+	}
+	p { color: var(--text-secondary); }
+	* {box-sizing: border-box; font-family: Montserrat;}
+	&.single {
+		ul li { list-style-type: disc; padding-left: var(--space-md); }
+	}
+
+    .bg-wrapper {
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+	    background-image: url("/wp-content/plugins/newamerykah/a/grad-bg-dark.png");
 	}
 }
 
