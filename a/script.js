@@ -315,7 +315,7 @@ class NodeSelect extends HTMLElement
 	// this function called usually by node-select element
 	nodeSelect ( value )
 	{
-		let selectedOption = this.q( "node-option[data-value=" + value + "]" )[0];
+		let selectedOption = this.q( "node-option[data-value='" + value + "']" )[0];
 
 		// unfocus node-select, set value
 		this.attr( "data-value", value );
@@ -330,7 +330,7 @@ class NodeSelect extends HTMLElement
 		//show next step
 		if ( this.attr("data-select-next") )
 		{
-			document.q("node-select[data-name=" + this.attr("data-select-next") + "]")[0].show();
+			document.q("node-select[data-name=" + this.attr("data-select-next") + "][data-filter=" + value + "]")[0].show();
 		}
 
 		this.displayFeed();
