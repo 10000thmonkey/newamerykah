@@ -39,6 +39,8 @@ body.whiteamerykah {
     --ui-button-active-fill: var(--iosidark);
     --ui-button-active-text: var(--iosigold);
 
+    h2 {}
+
 	.bg-wrapper {
 		opacity: .5;
 		background-color: white;
@@ -52,17 +54,24 @@ body {
 	padding: 0;
 	background-color: var(--iosilight);
 	color: var(--text-secondary);
+
 	h1, h2, h3, h4, h5, h6 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
+	h1 {
+		font-size: var(--font-xl);
+	}
 	h2 {
 		font-size: var(--font-hg);
 		font-weight: 500;
-		color: var(--primary);
+		color: var(--text-primary);
 	}
+
 	p {
 		color: var(--text-paragraph-color);
 		line-height: 1.5;
 	}
+
 	* {box-sizing: border-box; font-family: Montserrat;}
+	
 	&.single {
 		ul li { list-style-type: disc; padding-left: var(--space-md); }
 	}
