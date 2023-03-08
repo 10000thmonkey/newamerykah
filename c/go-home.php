@@ -6,17 +6,18 @@ nv_new_c (
 	{
 		$VAR = array_merge( [
 			"link" => "https://dev.iosi.global",
+			"logo" => true,
 			"heading" => "IOSI GLOBAL",
 		], $VAR );
 
-		
+		$VAR["logo"] = $VAR["logo"] ? '<img src="https://iosi.global/wp-content/uploads/2021/07/logo-2022.svg" height="60" style="height:60px">' : "";
 
 		return <<<HTML
 
 		<div class="header header-nav">
 			<a href="{$VAR["link"]}">
 				<span style="transform: rotate(90deg);">▼</span>
-				<img src="https://iosi.global/wp-content/uploads/2021/07/logo-2022.svg" height="60" style="height:60px">
+				{$VAR["logo"]}
 				<span class="" style="font-size: var(--font-hg);">{$VAR["heading"]}</span>
 			</a>
 
