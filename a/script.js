@@ -330,7 +330,7 @@ class NodeSelect extends HTMLElement
 		//show next step
 		if ( this.attr("data-select-next") )
 		{
-			document.q("node-select[data-name=" + this.attr("data-select-next") + "][data-filter=" + value + "]")[0].show();
+			document.q("node-select[data-name='" + this.attr("data-select-next") + "'][data-filter='" + value + "']")[0].show();
 		}
 
 		this.displayFeed();
@@ -339,10 +339,10 @@ class NodeSelect extends HTMLElement
 
 	displayFeed ()
 	{
-		let node1 = q("node-select[data-name=field]")[0].attr("data-value");
-		let node2 = q("node-select[data-name=profession]")[0].attr("data-value");
+		let node1 = q("node-select[data-name=gig_field]")[0].attr("data-value");
+		let node2 = q("node-select[data-name=gig_type]")[0].attr("data-value");
 		
-		let matchingItems = q("#feed article[data-field="+node1+"][data-profession="+node2+"]");
+		let matchingItems = q("#feed article[data-gig-field='"+node1+"'][data-gig-type='"+node2+"']");
 
 		q("#feed article").noDisplay();
 
