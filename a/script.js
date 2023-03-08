@@ -330,7 +330,11 @@ class NodeSelect extends HTMLElement
 		//show next step
 		if ( this.attr("data-select-next") )
 		{
-			document.q("node-select[data-name='" + this.attr("data-select-next") + "'][data-filter='" + value + "']")[0].show();
+			document.q("node-select[data-name='" + this.attr("data-select-next") + "']")[0]
+				.show()
+				.q("node-option").nodisplay()
+				.parentElement.q("node-option[data-filter='" + value + "']")[0].display();
+
 		}
 
 		this.displayFeed();
