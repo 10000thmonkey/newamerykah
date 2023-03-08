@@ -146,9 +146,13 @@ body.single {
 		width: 100%;
 	    padding: 15px;
 	    background: var(--iosidark);
-	    border: 1px solid var(--iosigold);
+	    border: 1px solid transparent;
 	    border-radius: 30px;
 	    color: var(--iosigold);
+	    transition: 200ms ease all;
+	    &:focus {
+	    	border-color: var(--iosigold);
+	    }
 	}
 	button {
 		width: auto;
@@ -160,6 +164,11 @@ body.single {
 		border-radius: 30px;
 	}
 }
+
+
+
+
+
 
 
 .node-button, #sptp-2706.sp-team-pro .filters-button-group .button {
