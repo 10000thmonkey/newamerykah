@@ -6,10 +6,7 @@
     --iosigoldligth: #f4d98d;
 
     --contentwidth: 680px;
-}
-.padding0 {padding:0 !important;}
 
-body {
 	--primary: var(--iosigrey);
 	--secondary: var(--iosigold);
 	--text-primary: var(--iosigold);
@@ -21,9 +18,12 @@ body {
     --ui-text: var(--iosigold);
     --ui-button-active-fill: linear-gradient(to right, rgb(255 255 255 / 67%), rgb(255 255 255 / 38%) );
     --ui-button-active-text: var(--iosidark);
+}
+.padding0 {padding: 0 !important;}
 
+body {
 	h1, h2, h3, h4, h5, h6 {font-family: Montserrat;box-sizing: border-box; color: var(--text-primary);}
-	h2 {font-size: var(--font-hg) !important; font-weight: 500 !important;}
+	h2 {font-size: var(--font-hg); font-weight: 500;}
 	p { color: var(--text-secondary); }
 	* {box-sizing: border-box; font-family: Montserrat;}
 	&.single {
