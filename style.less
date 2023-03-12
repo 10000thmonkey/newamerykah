@@ -21,6 +21,8 @@
     --ui-text: var(--iosigold);
     --ui-button-active-fill: linear-gradient(to right, rgb(255 255 255 / 67%), rgb(255 255 255 / 38%) );
     --ui-button-active-text: var(--iosidark);
+
+    --easingfunction: cubic-bezier(0.16, 1, 0.3, 1);
 }
 .padding0 {padding: 0 !important;}
 
@@ -198,7 +200,7 @@ body.single {
 		font-size: 13px;
 		color: var(--iosigrey);
 		text-transform: none;
-		transition: 50ms ease color;
+		transition: 50ms cubic-bezier(0.16, 1, 0.3, 1) color;
 	}
 
 	&:before {
@@ -211,7 +213,7 @@ body.single {
 	    top: 0;
 	    left: 0;
 	    opacity: 0;
-	    transition: 100ms ease-out opacity, 500ms ease-out transform;
+	    transition: 100ms cubic-bezier(0.16, 1, 0.3, 1) opacity, 500ms cubic-bezier(0.16, 1, 0.3, 1) transform;
 	}
 
 	&:hover,
@@ -232,7 +234,7 @@ body.single {
 	.accordeon-content {
 		max-height: 0;
 		overflow: hidden;
-		transition: 300ms ease-out max-height;
+		transition: 300ms cubic-bezier(0.16, 1, 0.3, 1) max-height;
 		//padding: 20px 0 30px;
 		p {padding: 15px;}
 	}
@@ -250,7 +252,7 @@ body.single {
 			right: 1em;
 			transform: translateY(-50%);
 			pointer-events: none;
-			transition: 200ms ease all;
+			transition: 200ms cubic-bezier(0.16, 1, 0.3, 1) all;
 		}
 	}
 }
@@ -263,7 +265,7 @@ node-select {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		text-align: left !important;
-		transition: 200ms ease all;
+		transition: 200ms cubic-bezier(0.16, 1, 0.3, 1) all;
 	
 		&:after {
 			content: '\25BC';
@@ -288,7 +290,7 @@ node-select {
 	    z-index: 1000;
 	    top: 0;
 	    left: 0;
-	    transition: 200ms ease all;
+	    transition: 200ms cubic-bezier(0.16, 1, 0.3, 1) all;
 	    opacity: 0;
 	    pointer-events: none;
 	    background-image: linear-gradient(to right, rgb(255 255 255 / 67%), rgb(255 255 255 / 38%) );
@@ -300,7 +302,7 @@ node-select {
 	node-option {
 		padding: 15px 30px;
 		font-weight: 500;
-		transition: 200ms ease all;
+		transition: 200ms cubic-bezier(0.16, 1, 0.3, 1) all;
 		cursor: pointer;
 		color: var(--iosidark);
 		&.selected {
@@ -422,7 +424,7 @@ node-select {
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: ease 2s all;
+    transition: cubic-bezier(0.16, 1, 0.3, 1) 2s all;
     filter: blur(5px);
 }
 @media (max-width: 800px) {
