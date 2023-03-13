@@ -432,6 +432,12 @@ node-select {
 }
 
 
+.card {
+	background-color: var(--ui-bg);
+	border-radius: 30px;
+	border: 1px solid var(--ui-accent);
+	overflow: hidden;
+}
 
 .newsfeed {
 	margin: 0 auto;
@@ -439,12 +445,9 @@ node-select {
 	width: 100%;
 
 	a {
+		.card();
 		display: flex;
 		flex-direction: column;
-		border-radius: 30px;
-		background: white;
-		border: 1px solid var(--iosigold);
-		overflow: hidden;
 
 		img { width: 100%; object-fit: cover; aspect-ratio: 1.61803398875; }
 

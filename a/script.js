@@ -803,18 +803,20 @@ class NVMessageBox extends NVElement
 		}, 5 );
 	}
 
-	addMessage ( message, type = "info", icon = "" )
-	{
-		if ( icon !== "" ) icon = "<nv-icon class='nvicon-"+icon+"'></nv-icon>";
-		this.insert( createNode( "div", [ "message", type ] ).html( icon + message ) );
-		return this;
-	}
 	showMessage ( message, type = "info", icon = "" )
 	{
 		this.clearMessages();
 		this.addMessage( message, type, icon );
 		return this;
 	}
+
+	addMessage ( message, type = "info", icon = "" )
+	{
+		if ( icon !== "" ) icon = "<nv-icon class='nvicon-"+icon+"'></nv-icon>";
+		this.insert( createNode( "div", [ "message", type ] ).html( icon + message ) );
+		return this;
+	}
+
 	clearMessages ()
 	{
 		this.q( ".message" ).remove();
