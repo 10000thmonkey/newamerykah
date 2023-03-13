@@ -177,24 +177,28 @@ body.single {
 
 .node-button, #sptp-2706.sp-team-pro .filters-button-group .button {
 	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 15px;
+	height: 60px;
+    overflow: hidden;
+    position: relative;
+	user-select: none;
+
 	background-color: var(--ui-bg);
 	color: var(--ui-text);
 	border: 1px solid var(--ui-accent);
-	padding: 15px;
-	height: 60px;
 	border-radius: 30px;
+    backdrop-filter: blur(15px);
+	
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 500;
-	transition: 700ms cubic-bezier(0.16, 1, 0.3, 1) all, 500ms cubic-bezier(0.16, 1, 0.3, 1) color;
-    justify-content: center;
-    align-items: center;
+	font-size: var(--font-md);
+	
     cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    backdrop-filter: blur(15px);
-	flex-direction: column;
-	user-select: none;
+	transition: 700ms cubic-bezier(0.16, 1, 0.3, 1) all, 500ms cubic-bezier(0.16, 1, 0.3, 1) color;
 
 	span {
 		font-size: 13px;
