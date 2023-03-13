@@ -482,11 +482,13 @@ article .wp-block-embed__wrapper {
 }
 
 
-
-
-nv-messagebox .message {
-	background: var(--ui-accent);
-	color: var(--ui-bg);
-	width: 100%;
+nv-messagebox {
 	max-width: none;
+	margin: initial;
+
+	.message {
+		background: var(--ui-accent) !important;
+		color: var(--ui-bg);
+		padding: var(--space-sm);
+	}
 }
