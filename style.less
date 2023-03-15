@@ -217,8 +217,13 @@ body.single {
 	border: 1px solid var(--iosigold);
 	transition: 1s var(--easingfunction) all;
 	outline: 2px solid transparent;
+	display: flex;
 	
-	input, &.is-form-style input.is-search-input {
+	&:focus-within {
+		outline: 2px solid var(--iosigold);
+	}
+
+	.is-search-input {
 		color: var(--iosigrey);
 	    appearance: none;
 	    border: none;
@@ -228,18 +233,24 @@ body.single {
 		
 		&:focus, &:focus-visible { outline:none;border:none }
 	}
-	
-	&:focus-within {
-		outline: 2px solid var(--iosigold);
+	.is-search-submit {
+		appearance: none;
+		background: transparent;
+		border: none;
+		padding: 15px;
 	}
-	button, a {
-		padding: 16px;
-	}
-	a svg {
+	.is-search-icon {
+		background: transparent;
+		border: navajowhite;
+		color: var(--iosigold);
 		display: block;
-		fill: var(--iosigold);
-		width: 24px;
-		height: 24px;
+
+		svg {
+			display: block;
+			fill: var(--iosigold);
+			width: 24px;
+			height: 24px;
+		}
 	}
 }
 
