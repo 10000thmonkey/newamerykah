@@ -209,6 +209,41 @@ body.single {
 
 
 
+#searchbox, form.is-search-form {
+	border-radius: 30px;
+	padding: 0;
+	font-size: var(--font-md);
+	background: rgba(0,0,0,0.5);
+	border: 1px solid var(--iosigold);
+	transition: 1s var(--easingfunction) all;
+	outline: 2px solid transparent;
+	
+	input {
+		color: var(--iosigrey);
+	    appearance: none;
+	    border: none;
+	    background: transparent;
+	    padding: 20px;
+		border-radius: 30px;
+		
+		&:focus, &:focus-visible { outline:none;border:none }
+	}
+	
+	&:focus-within {
+		outline: 2px solid var(--iosigold);
+	}
+	a {
+		padding: 16px;
+	}
+	a svg {
+		display: block;
+		fill: var(--iosigold);
+		width: 24px;
+		height: 24px;
+	}
+}
+
+
 .node-button, #sptp-2706.sp-team-pro .filters-button-group .button {
 	display: flex;
 	flex-direction: column;
