@@ -180,6 +180,7 @@ add_action( "after_setup_theme",
 
 
 function wpdt_header_style() {}
+function wpdt_content_nav() {}
 
 function getIPAddress() {  
     //whether ip is from the share internet  
