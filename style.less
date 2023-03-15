@@ -218,11 +218,13 @@ body.single {
 	transition: 1s var(--easingfunction) all;
 	outline: 2px solid transparent;
 	display: flex;
+	width: 100%;
 	
 	&:focus-within {
 		outline: 2px solid var(--iosigold);
 	}
 
+	label { width: 100%; }
 	.is-search-input {
 		color: var(--iosigrey);
 	    appearance: none;
@@ -230,6 +232,7 @@ body.single {
 	    background: transparent;
 	    padding: 20px;
 		border-radius: 30px;
+		width: 100%;
 		
 		&:focus, &:focus-visible { outline:none;border:none }
 	}
@@ -238,6 +241,7 @@ body.single {
 		background: transparent;
 		border: none;
 		padding: 15px;
+		cursor: pointer;
 	}
 	.is-search-icon {
 		background: transparent;
