@@ -218,7 +218,7 @@ body.single {
 	transition: 1s var(--easingfunction) all;
 	outline: 2px solid transparent;
 	
-	input {
+	input, &.is-form-style input.is-search-input {
 		color: var(--iosigrey);
 	    appearance: none;
 	    border: none;
@@ -232,7 +232,7 @@ body.single {
 	&:focus-within {
 		outline: 2px solid var(--iosigold);
 	}
-	a {
+	button, a {
 		padding: 16px;
 	}
 	a svg {
