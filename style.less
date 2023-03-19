@@ -164,8 +164,9 @@ body.single {
 	    border-radius: 30px;
 	    color: var(--iosigold);
 	    transition: 200ms ease all;
+	    outline: 2px solid transparent;
 	    &:focus {
-	    	border-color: var(--iosigold);
+	    	outline-color: var(--iosigold);
 	    }
 	}
 	button {
@@ -213,7 +214,7 @@ body.single {
 	border-radius: 35px;
 	padding: 0;
 	font-size: var(--font-md);
-	background: rgba(0,0,0,0.5);
+	background: var(--iosidark);
 	border: 1px solid var(--iosigold);
 	transition: 1s var(--easingfunction) all;
 	outline: 2px solid transparent;
@@ -241,8 +242,13 @@ body.single {
 		appearance: none;
 		background: transparent;
 		border: none;
-		padding: 15px;
+		display: flex;
+		width: 70px;
+		height: 70px;
+		justify-content: center;
+		align-items: center;
 		cursor: pointer;
+
 	}
 	.is-search-icon {
 		background: transparent;
@@ -259,6 +265,15 @@ body.single {
 	}
 	.is-screen-reader-text {display: none;}
 }
+
+
+.pill {
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-size: var(--font-sm);
+	background: rgba(255,255,255,0.05);
+}
+
 
 
 .node-button, #sptp-2706.sp-team-pro .filters-button-group .button {
