@@ -30,29 +30,29 @@ $nv_controllers = array();
 
 function nv_new_c ( $path, $callable )
 {
-    global $nv_controllers;
-    $nv_controllers[ $path ] = $callable;
+	global $nv_controllers;
+	$nv_controllers[ $path ] = $callable;
 }
 
 function nv_c ( $path, $VAR = array(), $print = false )
 {
-    global $nv_controllers;
-    global $templ_dir;
+	global $nv_controllers;
+	global $templ_dir;
 
-    if ( file_exists( "$templ_dir$path.php" ) )
-    {
-        include_once "$templ_dir$path.php";
-        return $nv_controllers[ $path ]( $VAR );
-    }
-    else {
-        trigger_error( "Component $path does not exist!", E_USER_WARNING);
-        return false;
-    }
+	if ( file_exists( "$templ_dir$path.php" ) )
+	{
+		include_once "$templ_dir$path.php";
+		return $nv_controllers[ $path ]( $VAR );
+	}
+	else {
+		trigger_error( "Component $path does not exist!", E_USER_WARNING);
+		return false;
+	}
 }
 
 function nv_c_attr ( $attr )
 {
-    return esc_attr( json_encode( $attr ) );
+	return esc_attr( json_encode( $attr ) );
 }
 
 
@@ -61,24 +61,24 @@ $nv_emails = array();
 
 function nv_new_e ( $path, $callable )
 {
-    global $nv_emails;
-    $nv_emails[ $path ] = $callable;
+	global $nv_emails;
+	$nv_emails[ $path ] = $callable;
 }
 
 function nv_e ( $path, $VAR = array(), $print = false )
 {
-    global $nv_emails;
-    global $templ_dir;
+	global $nv_emails;
+	global $templ_dir;
 
-    if ( file_exists( "$templ_dir$path.php" ) )
-    {
-        include_once "$templ_dir$path.php";
-        return $nv_emails[ $path ]( $VAR );
-    }
-    else {
-        trigger_error( "Email does not exist!", E_USER_WARNING);
-        return false;
-    }
+	if ( file_exists( "$templ_dir$path.php" ) )
+	{
+		include_once "$templ_dir$path.php";
+		return $nv_emails[ $path ]( $VAR );
+	}
+	else {
+		trigger_error( "Email does not exist!", E_USER_WARNING);
+		return false;
+	}
 }
 
 
@@ -88,40 +88,40 @@ global $nv_templates;
 
 function nv_new_t ( $path, $callable )
 {
-    global $nv_templates;
-    $nv_templates[ $path ] = $callable; 
+	global $nv_templates;
+	$nv_templates[ $path ] = $callable; 
 }
 function nv_t ( $path )
 {
-    global $templ_dir;
-    global $nv_templates;
+	global $templ_dir;
+	global $nv_templates;
 
-    if ( file_exists( "$templ_dir$path.html" ) )
-    {
-        return file_get_contents( "$templ_dir$path.html" );
-        //return $nv_templates[ $path ]();
-    }
-    else {
-        trigger_error( "Template does not exist!", E_USER_WARNING);
-        return false;
-    }
+	if ( file_exists( "$templ_dir$path.html" ) )
+	{
+		return file_get_contents( "$templ_dir$path.html" );
+		//return $nv_templates[ $path ]();
+	}
+	else {
+		trigger_error( "Template does not exist!", E_USER_WARNING);
+		return false;
+	}
 }
 
 
 
 function nv_ajax ( $endpoint, $callback )
 {
-    global $NV_DEV;
-    $endpoint = str_replace( "/", "_", $endpoint );
+	global $NV_DEV;
+	$endpoint = str_replace( "/", "_", $endpoint );
 
-    $passing = function () use ( $callback ) {
-        //echo var_dump( $callback );
-        if( $NV_DEV ) @ini_set( 'display_errors', 1 );
-        echo json_encode( call_user_func( $callback ) );
-        die();
-    };
-    add_action( "wp_ajax_nv_$endpoint", $passing );
-    add_action( "wp_ajax_nopriv_nv_$endpoint", $passing );
+	$passing = function () use ( $callback ) {
+		//echo var_dump( $callback );
+		if( $NV_DEV ) @ini_set( 'display_errors', 1 );
+		echo json_encode( call_user_func( $callback ) );
+		die();
+	};
+	add_action( "wp_ajax_nv_$endpoint", $passing );
+	add_action( "wp_ajax_nopriv_nv_$endpoint", $passing );
 }
 
 
@@ -132,11 +132,11 @@ function nv_ajax ( $endpoint, $callback )
 
 
 add_filter(
-    'upload_mimes',
-    function ($mimes) {
-        $mimes['svg'] = 'image/svg+xml';
-        return $mimes;
-    }
+	'upload_mimes',
+	function ($mimes) {
+		$mimes['svg'] = 'image/svg+xml';
+		return $mimes;
+	}
 );
 
 
@@ -144,43 +144,48 @@ add_filter(
 
  
 add_action( "after_setup_theme",
-    function() {
-        add_theme_support( 'title-tag' );
-        add_theme_support('post-thumbnails', array( 'post', 'page', 'custom-post-type-name' ));
+	function() {
+		add_theme_support( 'title-tag' );
+		add_theme_support('post-thumbnails', array( 'post', 'page', 'custom-post-type-name' ));
 
-        if ( ! is_admin() )
-        {
-            add_action(
-                'wp_enqueue_scripts',
-                function() {
-                    wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/framework.css" );
-                    wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" );
-                    wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
-                }
-            );
+		if ( ! is_admin() )
+		{
+			add_action(
+				'wp_enqueue_scripts',
+				function()
+				{
+					wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/framework.css" );
+					wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" );
+					wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
 
-            add_filter( "show_admin_bar", "__return_false" );
+					// DISABLE WP DEFAULT RESOURCES WHEN NOT ON SINGLE POST
+					if ( ! is_single() )
+					{
+						wp_dequeue_style('wp-block-library');
+						wp_dequeue_style('wp-block-library-theme');
+						wp_dequeue_style('wp-blocks-style');
+
+						wp_dequeue_style('global-styles-inline');
+
+						wp_dequeue_style('classic-theme-styles');
+
+					}
+				}
+			);
+
+			add_filter( "show_admin_bar", "__return_false" );
 
 
-            add_action( "wp_head", function() {
-            ?>
-                <meta name="theme-color" content="#211c35">
-                <!-- Google Tag Manager -->
-                <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-K36NTHT');</script>
-                <!-- End Google Tag Manager -->
-            <?php    
-            } );
+			add_action( "wp_head", function() {
+				echo nv_t("t/header");  
+			} );
 
 
-            add_action( "wp_footer", function() {
-                echo nv_t("t/footer");  
-            } );
-        }
-    }
+			add_action( "wp_footer", function() {
+				echo nv_t("t/footer");  
+			} );
+		}
+	}
 );
 
 
@@ -190,18 +195,80 @@ function wpdt_header_style() {}
 function wpdt_content_nav() {}
 
 function getIPAddress() {  
-    //whether ip is from the share internet  
-    if(!empty($_SERVER['HTTP_CLIENT_IP'])) {  
-        $ip = $_SERVER['HTTP_CLIENT_IP'];  
-    }
-    //whether ip is from the proxy  
-    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {  
-        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];  
-    }  
-    //whether ip is from the remote address  
-    else{  
-        $ip = $_SERVER['REMOTE_ADDR'];  
-    }  
-    return $ip;  
-}  
+	//whether ip is from the share internet  
+	if(!empty($_SERVER['HTTP_CLIENT_IP'])) {  
+		$ip = $_SERVER['HTTP_CLIENT_IP'];  
+	}
+	//whether ip is from the proxy  
+	elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {  
+		$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];  
+	}  
+	//whether ip is from the remote address  
+	else{  
+		$ip = $_SERVER['REMOTE_ADDR'];  
+	}  
+	return $ip;  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function disable_emojis() {
+	remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+	remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+	remove_action( 'wp_print_styles', 'print_emoji_styles' );
+	remove_action( 'admin_print_styles', 'print_emoji_styles' ); 
+	remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
+	remove_filter( 'comment_text_rss', 'wp_staticize_emoji' ); 
+	remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
+	add_filter( 'tiny_mce_plugins', 'disable_emojis_tinymce' );
+	add_filter( 'wp_resource_hints', 'disable_emojis_remove_dns_prefetch', 10, 2 );
+}
+add_action( 'init', 'disable_emojis' );
+ 
+/**
+ * Filter function used to remove the tinymce emoji plugin.
+ * 
+ * @param array $plugins 
+ * @return array Difference betwen the two arrays
+ */
+function disable_emojis_tinymce( $plugins ) {
+	if ( is_array( $plugins ) ) {
+		return array_diff( $plugins, array( 'wpemoji' ) );
+	} else {
+		return array();
+	}
+}
+ 
+/**
+ * Remove emoji CDN hostname from DNS prefetching hints.
+ *
+ * @param array $urls URLs to print for resource hints.
+ * @param string $relation_type The relation type the URLs are printed for.
+ * @return array Difference betwen the two arrays.
+ */
+function disable_emojis_remove_dns_prefetch( $urls, $relation_type ) {
+	if ( 'dns-prefetch' == $relation_type ) {
+	/** This filter is documented in wp-includes/formatting.php */
+		$emoji_svg_url = apply_filters( 'emoji_svg_url', 'https://s.w.org/images/core/emoji/2/svg/' );
+
+		$urls = array_diff( $urls, array( $emoji_svg_url ) );
+	}
+
+	return $urls;
+} 
 ?>
