@@ -528,10 +528,16 @@ node-select {
 div.is-ajax-search-details, div.is-ajax-search-result {
     background: var(--iosidark);
     color: var(--iosigrey);
+    padding: 0 !important;
 
 	.is-ajax-search-details .is-ajax-search-items>div, .is-ajax-search-post {
 		background: transparent;
+		transition: 750ms var(--easingfunction) all;
+		border-color: rgba(255, 255, 255, .05);
+		cursor: pointer;
+		&:hover { background: var(--iosilight); }
 	}
+	.is-ajax-search-result a { color: var(--iosigrey); }
 }
 
 
