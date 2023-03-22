@@ -7,6 +7,7 @@
 
     --contentwidth: 680px;
 
+
     --font-md: 20px;
 
 	--primary: var(--iosigrey);
@@ -188,7 +189,11 @@ body.single {
 		--ui-input-background: rgba(255,255,255,0.2);
 	}
 	&.white {
-		--ui-input-background: rgba(255,255,255,0.2);
+		--ui-input-background: rgba(0, 0, 0, 0.05);
+
+		#cf_send { --ui-bg: var(--iosidark); }
+		#cf_send:before { content: none; }
+		#cf_send:hover { background: var(--iosilight); color: var(--iosigold); }
 	}
 
 
@@ -203,8 +208,9 @@ body.single {
 	    display: flex;
 	    flex-direction: column;
 	    gap: 10px;
+	    padding: 10px;
 
-	    span { margin-left: 15px; }
+	    /*span { margin-left: 15px; }*/
 	}
 
 	input:not([type=checkbox]), textarea {
