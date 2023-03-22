@@ -18,7 +18,7 @@ nv_new_c (
 			<a href="{$VAR["link"]}">
 				<span style="transform: rotate(90deg);">▼</span>
 				{$VAR["logo"]}
-				<span class="" style="font-size: var(--font-hg);">{$VAR["heading"]}</span>
+				<span class="" style="font-size: var(--font-md);">{$VAR["heading"]}</span>
 			</a>
 		</div>
 		
