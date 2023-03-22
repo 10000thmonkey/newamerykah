@@ -313,24 +313,28 @@ body.single {
 }
 
 div.is-ajax-search-details, div.is-ajax-search-result, #is-ajax-search-result-25 {
-    background: var(--ui-button-active-fill);
+    background: var(--iosigrey);
     backdrop-filter: blur(15px);
+    border-radius: 15px;
     overflow: hidden;
     color: var(--iosidark);
     padding: 0 !important;
     transition: 300ms var(--easingfunction) all;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    border: 1px solid var(--iosigold);
+    //border: 1px solid var(--iosigold);
 
-	.is-ajax-search-details .is-ajax-search-items>div, .is-ajax-search-post {
+	.is-ajax-search-details .is-ajax-search-items>div, .is-ajax-search-post
+	{
 		background: transparent;
-		transition: 750ms var(--easingfunction) all;
+		transition: 100ms var(--easingfunction) all;
 		border-color: rgba(0, 0, 0, .05);
 		cursor: pointer;
-		&:hover { background: var(--iosilight); }
+
+		&:hover { background: rgba(255, 255, 255, .1); }
 	}
+
 	.is-ajax-search-result a {
-		color: var(--iosigrey);
+		color: var(--iosilight) !important;
 		&:hover {text-decoration: none;}
 	}
 }
