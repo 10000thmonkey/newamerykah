@@ -187,6 +187,9 @@ body.single {
 
 #cf {
 	--ui-input-background: rgba(255,255,255,.1);
+	#cf_send { --ui-bg: var(--iosigold); --ui-text: var(--iosidark); }
+	#cf_send:before { content: none; }
+	#cf_send:hover { background: var(--iosigold); color: var(--iosidark); }
 
 	&.gold {
 		--ui-input-background: rgba(255,255,255,0.2);
@@ -239,6 +242,7 @@ body.single {
 		&:active {
 			transform: translateY(2px);
 		}
+		&:before { content: none; }
 	}
 	a[href='https://iosi.global/privacy-policy'] {font-weight: 700;}
 }
