@@ -381,6 +381,10 @@ div.is-ajax-search-details, div.is-ajax-search-result, #is-ajax-search-result-25
     cursor: pointer;
 	transition: 700ms cubic-bezier(0.16, 1, 0.3, 1) all, 500ms cubic-bezier(0.16, 1, 0.3, 1) color;
 
+	@media (max-width: 700px) {
+		flex: auto;
+	}
+
 	span {
 		font-size: 13px;
 		color: var(--iosigrey);
