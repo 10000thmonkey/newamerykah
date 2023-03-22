@@ -312,6 +312,29 @@ body.single {
 	.is-screen-reader-text {display: none;}
 }
 
+div.is-ajax-search-details, div.is-ajax-search-result, #is-ajax-search-result-25 {
+    background: var(--ui-button-active-fill);
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    color: var(--iosidark);
+    padding: 0 !important;
+    transition: 300ms var(--easingfunction) all;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--iosigold);
+
+	.is-ajax-search-details .is-ajax-search-items>div, .is-ajax-search-post {
+		background: transparent;
+		transition: 750ms var(--easingfunction) all;
+		border-color: rgba(0, 0, 0, .05);
+		cursor: pointer;
+		&:hover { background: var(--iosilight); }
+	}
+	.is-ajax-search-result a {
+		color: var(--iosigrey);
+		&:hover {text-decoration: none;}
+	}
+}
+
 
 .pill {
 	padding: 5px 10px;
@@ -522,26 +545,6 @@ node-select {
 				transform: rotate(90deg) translateY(5px);
 			}
 		}
-	}
-}
-
-div.is-ajax-search-details, div.is-ajax-search-result, #is-ajax-search-result-25 {
-    background: var(--iosidark);
-    color: var(--iosigrey);
-    padding: 0 !important;
-    transition: 200ms var(--easingfunction) all;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-
-	.is-ajax-search-details .is-ajax-search-items>div, .is-ajax-search-post {
-		background: transparent;
-		transition: 750ms var(--easingfunction) all;
-		border-color: rgba(255, 255, 255, .05);
-		cursor: pointer;
-		&:hover { background: var(--iosilight); }
-	}
-	.is-ajax-search-result a {
-		color: var(--iosigrey);
-		&:hover {text-decoration: none;}
 	}
 }
 
