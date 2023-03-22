@@ -187,6 +187,9 @@ body.single {
 	&.gold {
 		--ui-input-background: rgba(255,255,255,0.2);
 	}
+	&.white {
+		--ui-input-background: rgba(255,255,255,0.2);
+	}
 
 
 	transition: 1s var(--easingfunction) opacity;
@@ -212,9 +215,9 @@ body.single {
 		width: 100% !important;
 		border-radius: 30px;
 		outline: 2px solid transparent;
-
+		transition: 500ms var(--easingfunction) all;
 		&:hover {
-			outline-color: rgba(255,255,255, .03);
+			outline-color: rgba(255,255,255, .05);
 		}
 		&:focus {
 			outline-color: var(--ui-accent);
