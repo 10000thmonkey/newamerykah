@@ -525,7 +525,7 @@ node-select {
 	}
 }
 
-div.is-ajax-search-details, div.is-ajax-search-result {
+div.is-ajax-search-details, div.is-ajax-search-result, #is-ajax-search-result-25 {
     background: var(--iosidark);
     color: var(--iosigrey);
     padding: 0 !important;
@@ -539,7 +539,10 @@ div.is-ajax-search-details, div.is-ajax-search-result {
 		cursor: pointer;
 		&:hover { background: var(--iosilight); }
 	}
-	.is-ajax-search-result a { color: var(--iosigrey); }
+	.is-ajax-search-result a {
+		color: var(--iosigrey);
+		&:hover {text-decoration: none;}
+	}
 }
 
 
