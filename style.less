@@ -490,42 +490,26 @@ node-select {
 		gap: 20px;
 		height: var(--header-nav);
 		
-		& > span {
+		span {
 			color: var(--iosigold);
 			font-size: 125%;
 			transition: 1s var(--easingfunction) all;
+			transform: rotate(90deg);
 		}
 		img {
 			width: calc(var(--header-nav) - 2 * var(--header-space));
 			height: calc(var(--header-nav) - 2 * var(--header-space));
 			fill: var(--iosigrey);
 		}
-
+		div {
+			color: var(--iosigold);
+			font-size: var(--font-md);
+		}
 		&:hover {
 			& > span {
-				transform: translateX(-5px);
+				transform: rotate(90deg) translateX(-5px);
 			}
 		}
-	}
-
-
-
-	.header-left {
-		width: var(--header-nav);
-		height: var(--header-nav);
-
-	}
-	.header-center {
-		height: var(--header-nav);
-
-		h1 {
-			color: var(--iosigrey);
-			font-size: var(--font-md);
-			font-weight: 500;
-		}
-	}
-	.header-right {
-	    
 	}
 }
 
