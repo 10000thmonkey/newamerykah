@@ -482,7 +482,6 @@ node-select {
 	--header-nav: 60px;
 	--header-space: 10px;
 	height: var(--header-nav);
-	//max-width: 500px;
 	width: 100%;
 	
 	a {
@@ -494,13 +493,21 @@ node-select {
 		& > span {
 			color: var(--iosigold);
 			font-size: 125%;
+			transition: 1s var(--easingfunction) all;
 		}
 		img {
 			width: calc(var(--header-nav) - 2 * var(--header-space));
 			height: calc(var(--header-nav) - 2 * var(--header-space));
 			fill: var(--iosigrey);
 		}
+
+		&:hover {
+			& > span {
+				transform: translateX(-5px);
+			}
+		}
 	}
+
 
 
 	.header-left {
