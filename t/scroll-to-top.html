@@ -5,14 +5,42 @@
 <script type="text/javascript">
 q(()=>{
 	const btn = q("#scroll-to-top");
+	let btnhidden = true;
 
-	window.on("scroll", (e)=>{
-		console.log(e);
+	document.on("scroll", (e)=>{
+		if ( window.scrollY > ( window.innerHeight / 2 ) && btnhidden ) {
+			btn.show();
+			btnhidden = false;
+		}
+		else if ( window.scrollY < ( window.innerHeight / 2 ) && !btnhidden ) {
+			btn.hide();
+			btnhidden = true;
+		}
 	});
 });
 	
 </script>
 
 <style type="text/css">
-	
+#scroll-to-top {
+	position: fixed;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    transform: rotate(180deg);
+    background: var(--ui-bg);
+    color: var(--ui-accent);
+    box-shadow: -3px -5px 20px rgb(0 0 0 / 30%);
+    cursor: pointer;
+}
+#scroll-to-top:hover {
+	background: var(--ui-bg-alt);
+}
 </style>
