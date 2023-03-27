@@ -248,6 +248,7 @@ add_action( "after_setup_theme",
 					
 					defer_style( "weglot-css" );
 					defer_style( "new-flag-css" );
+					defer_style( "montserrat" );
 			
 				}, 999
 			);
