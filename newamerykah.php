@@ -154,22 +154,30 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
             if ("mapster-wp-location" === $post_type)
             {
 	            $meta = get_post_meta($query->post->ID);
-	            
+
+	            $imgurl = $meta["popup_featured_image"];
+	            $img = ! empty( $imgurl ) ? nv_c("c/img", [ "attachment_id" => $imgurl[0], "sizes" => "(min-width: 1px) 300px, 300px" ] ) : '';
 	            $excerpt = ( strlen( $meta["popup_body_text"][0] ) > 150 ) ? ( substr($meta["popup_body_text"][0], 0, 150) . "..." ) : $meta["popup_body_text"];
-	        } else {
+	            $date = '';
+	            $tags = '';
+	        }
+	        else
+	        {
 	        	$excerpt = get_the_excerpt();
+	        	$imgurl = get_post_thumbnail_id();
+	        	$img = $imgurl ? nv_c("c/img", [ "attachment_id" => $imgurl] ) : '';
+	        	$date = '<div class="date"><?php the_date(); ?></div>';
+	        	$tags = '<div class="tags"><?php the_tags(); ?></div>';
 	        }
 
-            ?>
-            <a class="card">
-                <h2><?php the_title(); ?></h2>
-                <?php if (has_post_thumbnail()) { ?>
-                    <div class="featured-image"><?php the_post_thumbnail(); ?></div>
-                <?php } ?>
-                <div class="tags"><?php the_tags(); ?></div>
-                <div class="date"><?php the_date(); ?></div>
-            </a>
-            <?php
+            echo <<<HTML
+				<a class="card">
+					<h3><?php the_title(); ?></h3>
+					$img
+					$tags
+					$date
+				</a>
+			HTML;
         }
         wp_reset_postdata();
     } else {
