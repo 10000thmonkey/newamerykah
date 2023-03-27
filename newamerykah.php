@@ -246,6 +246,9 @@ add_action( "after_setup_theme",
 						wp_dequeue_style('classic-theme-styles');
 
 					}
+
+					defer_style( "weglot-css" );
+					defer_style( "new-flags-css" );
 				}
 			);
 
@@ -261,10 +264,23 @@ add_action( "after_setup_theme",
 				echo nv_t("t/footer");  
 			} );
 		}
-	}
+	}, 999
 );
 
 
+
+
+
+function defer_style( $handle )
+{
+    if ( wp_style_is( $handle, 'enqueued' ) )
+    {
+        $plugin_style_src = wp_get_attachment_url( wp_style_is( $handle, 'registered' )->src );
+
+        wp_dequeue_style( $handle );
+        wp_enqueue_style( $handle, $plugin_style_src, array(), '1.0', 'all' );
+    }
+}
 
 
 
