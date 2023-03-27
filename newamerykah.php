@@ -283,7 +283,7 @@ function defer_style( $handle )
 
         wp_dequeue_style( $handle );
         
-        echo "<link id='$handle' onload='this.onload=null;this.rel=\"stylesheet\" href='$plugin_style_src' rel='preload' as='style'>";
+        echo '<link id="'.$handle.'" onload="this.onload=null;this.rel=\'stylesheet\'" href="'.$plugin_style_src.'" rel="preload" as="style">';
         //wp_enqueue_style( $handle, $plugin_style_src, array(), '1.0', 'all' );
     }
 }
