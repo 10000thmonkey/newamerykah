@@ -137,7 +137,7 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
 {
 	$args = array(
 		'post_type' => $post_type,
-		'posts_per_page' => 10,
+		'posts_per_page' => 12,
 		'offset' => $offset,
 		'orderby' => $sort_by,
 		'order' => 'DESC',
