@@ -191,15 +191,16 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
 	}
 }
 
-nv_ajax( "na_load_posts", function() {
+function na_load_posts() {
 	$offset = $_POST["offset"];
 	$sort_by = $_POST["sort_by"];
 	$tag = $_POST["tag"];
 	$post_type = $_POST["post_type"];
 	na_get_posts($offset, $tag, $sort_by, $post_type);
 	wp_die();
-});
-
+}
+add_action( "wp_ajax_na_load_posts", "na_load_posts" );
+add_action( "wp_ajax_nopriv_na_load_posts", "na_load_posts" );
 
 
 
