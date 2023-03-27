@@ -179,7 +179,7 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
 					<div class="img">
 						$img
 					</div>
-					<div class="padding-hg rows gap-md">
+					<div class="padding-hg rows gap-sm">
 						$date
 						$title
 						$tags
