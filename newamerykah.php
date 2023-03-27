@@ -240,17 +240,18 @@ add_action( "after_setup_theme",
 						wp_dequeue_style('wp-block-library');
 						wp_dequeue_style('wp-block-library-theme');
 						wp_dequeue_style('wp-blocks-style');
-
+						wp_dequeue_style('global-styles');
 						wp_dequeue_style('global-styles-inline');
 
 						wp_dequeue_style('classic-theme-styles');
-
 					}
-
+					
 					defer_style( "weglot-css" );
-					defer_style( "new-flags-css" );
-				}
+					defer_style( "new-flag-css" );
+			
+				}, 999
 			);
+		
 
 			add_filter( "show_admin_bar", "__return_false" );
 
@@ -273,12 +274,16 @@ add_action( "after_setup_theme",
 
 function defer_style( $handle )
 {
-    if ( wp_style_is( $handle, 'enqueued' ) )
+	global $wp_styles;
+
+    if ( isset( $wp_styles->registered[$handle] ) )
     {
-        $plugin_style_src = wp_get_attachment_url( wp_style_is( $handle, 'registered' )->src );
+        $plugin_style_src = $wp_styles->registered[$handle]->src;
 
         wp_dequeue_style( $handle );
-        wp_enqueue_style( $handle, $plugin_style_src, array(), '1.0', 'all' );
+        
+        echo "<link id='$handle' onload='this.onload=null;this.rel=\"stylesheet\" href='$plugin_style_src' rel='preload' as='style'>";
+        //wp_enqueue_style( $handle, $plugin_style_src, array(), '1.0', 'all' );
     }
 }
 
