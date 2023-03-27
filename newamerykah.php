@@ -170,19 +170,19 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
 				$excerpt = get_the_excerpt();
 				$imgurl = get_post_thumbnail_id();
 				$img = $imgurl ? nv_c("c/img", [ "attachment_id" => $imgurl] ) : '';
-				$date = '<div class="date"><?php the_date(); ?></div>';
-				$tags = '<div class="tags"><?php the_tags(); ?></div>';
+				$date = '<div class="date">'. get_the_date() .'</div>';
+				$tags = '<div class="tags">'. get_the_tags() .'</div>';
 			}
 
 			echo <<<HTML
-				<a class="card" href="$link">
+				<a class="card" href="$link" target="_blank">
 					<div class="img">
 						$img
 					</div>
 					<div class="padding-hg">
+						$date
 						$title
 						$tags
-						$date
 					</div>
 				</a>
 			HTML;
