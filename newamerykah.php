@@ -176,10 +176,12 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
 
 			echo <<<HTML
 				<a class="card" href="$link">
-					$title
 					$img
-					$tags
-					$date
+					<div class="padding-hg">
+						$title
+						$tags
+						$date
+					</div>
 				</a>
 			HTML;
 		}
