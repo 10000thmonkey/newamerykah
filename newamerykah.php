@@ -135,63 +135,67 @@ function nv_ajax ( $endpoint, $callback )
 
 function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'post')
 {
-    $args = array(
-        'post_type' => $post_type,
-        'posts_per_page' => 10,
-        'offset' => $offset,
-        'orderby' => $sort_by,
-        'order' => 'DESC',
-        'tag' => $tag
-    );
-    $query = new WP_Query($args);
-    
-    if ($query->have_posts())
-    {
-        while ($query->have_posts())
-        {
-            $query->the_post();
+	$args = array(
+		'post_type' => $post_type,
+		'posts_per_page' => 10,
+		'offset' => $offset,
+		'orderby' => $sort_by,
+		'order' => 'DESC',
+		'tag' => $tag
+	);
+	$query = new WP_Query($args);
+	
+	if ($query->have_posts())
+	{
+		while ($query->have_posts())
+		{
+			$query->the_post();
 
-            if ("mapster-wp-location" === $post_type)
-            {
-	            $meta = get_post_meta($query->post->ID);
+			$title = '<h3>' . get_the_title() . '</h3>';
 
-	            $imgurl = $meta["popup_featured_image"];
-	            $img = ! empty( $imgurl ) ? nv_c("c/img", [ "attachment_id" => $imgurl[0], "sizes" => "(min-width: 1px) 300px, 300px" ] ) : '';
-	            $excerpt = ( strlen( $meta["popup_body_text"][0] ) > 150 ) ? ( substr($meta["popup_body_text"][0], 0, 150) . "..." ) : $meta["popup_body_text"];
-	            $date = '';
-	            $tags = '';
-	        }
-	        else
-	        {
-	        	$excerpt = get_the_excerpt();
-	        	$imgurl = get_post_thumbnail_id();
-	        	$img = $imgurl ? nv_c("c/img", [ "attachment_id" => $imgurl] ) : '';
-	        	$date = '<div class="date"><?php the_date(); ?></div>';
-	        	$tags = '<div class="tags"><?php the_tags(); ?></div>';
-	        }
+			if ("mapster-wp-location" === $post_type)
+			{
+				$meta = get_post_meta($query->post->ID);
 
-            echo <<<HTML
-				<a class="card">
-					<h3><?php the_title(); ?></h3>
+				$link = $meta["popup_button_url"][0];
+				$imgurl = $meta["popup_featured_image"];
+				$img = ! empty( $imgurl ) ? nv_c("c/img", [ "attachment_id" => $imgurl[0], "sizes" => "(min-width: 1px) 300px, 300px" ] ) : '';
+				$excerpt = ( strlen( $meta["popup_body_text"][0] ) > 150 ) ? ( substr($meta["popup_body_text"][0], 0, 150) . "..." ) : $meta["popup_body_text"];
+				$date = '';
+				$tags = '';
+			}
+			else
+			{
+				$link = "";
+				$excerpt = get_the_excerpt();
+				$imgurl = get_post_thumbnail_id();
+				$img = $imgurl ? nv_c("c/img", [ "attachment_id" => $imgurl] ) : '';
+				$date = '<div class="date"><?php the_date(); ?></div>';
+				$tags = '<div class="tags"><?php the_tags(); ?></div>';
+			}
+
+			echo <<<HTML
+				<a class="card" href="$link">
+					$title
 					$img
 					$tags
 					$date
 				</a>
 			HTML;
-        }
-        wp_reset_postdata();
-    } else {
-        echo "No posts found.";
-    }
+		}
+		wp_reset_postdata();
+	} else {
+		echo "No posts found.";
+	}
 }
 
 nv_ajax( "na_load_posts", function() {
-    $offset = $_POST["offset"];
-    $sort_by = $_POST["sort_by"];
-    $tag = $_POST["tag"];
-    $post_type = $_POST["post_type"];
-    na_get_posts($offset, $tag, $sort_by, $post_type);
-    wp_die();
+	$offset = $_POST["offset"];
+	$sort_by = $_POST["sort_by"];
+	$tag = $_POST["tag"];
+	$post_type = $_POST["post_type"];
+	na_get_posts($offset, $tag, $sort_by, $post_type);
+	wp_die();
 });
 
 
