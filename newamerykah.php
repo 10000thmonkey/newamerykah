@@ -133,7 +133,7 @@ function nv_ajax ( $endpoint, $callback )
 
 
 
-function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'post')
+function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'post', $options = [])
 {
 	$args = array(
 		'post_type' => $post_type,
@@ -171,7 +171,7 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
 				$imgurl = get_post_thumbnail_id();
 				$img = $imgurl ? nv_c("c/img", [ "attachment_id" => $imgurl] ) : '';
 				$date = '<div class="date">'. get_the_date() .'</div>';
-				$tags = '<div class="tags">'. get_the_tags() .'</div>';
+				if ($options["show_tags"]) $tags = '<div class="tags">'. get_the_tags() .'</div>'; else $tags = '';
 			}
 
 			echo <<<HTML
