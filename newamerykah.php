@@ -131,6 +131,65 @@ function nv_ajax ( $endpoint, $callback )
 
 
 
+
+
+function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'post')
+{
+    $args = array(
+        'post_type' => $post_type,
+        'posts_per_page' => 10,
+        'offset' => $offset,
+        'orderby' => $sort_by,
+        'order' => 'DESC',
+        'tag' => $tag
+    );
+    $query = new WP_Query($args);
+    
+    if ($query->have_posts())
+    {
+        while ($query->have_posts())
+        {
+            $query->the_post();
+
+            if ("mapster-wp-location" === $post_type)
+            {
+	            $meta = get_post_meta($query->post->ID);
+	            
+	            $excerpt = ( strlen( $meta["popup_body_text"][0] ) > 150 ) ? ( substr($meta["popup_body_text"][0], 0, 150) . "..." ) : $meta["popup_body_text"];
+	        } else {
+	        	$excerpt = get_the_excerpt();
+	        }
+
+            ?>
+            <a class="card">
+                <h2><?php the_title(); ?></h2>
+                <?php if (has_post_thumbnail()) { ?>
+                    <div class="featured-image"><?php the_post_thumbnail(); ?></div>
+                <?php } ?>
+                <div class="tags"><?php the_tags(); ?></div>
+                <div class="date"><?php the_date(); ?></div>
+            </a>
+            <?php
+        }
+        wp_reset_postdata();
+    } else {
+        echo "No posts found.";
+    }
+}
+
+nv_ajax( "na_load_posts", function() {
+    $offset = $_POST["offset"];
+    $sort_by = $_POST["sort_by"];
+    $tag = $_POST["tag"];
+    $post_type = $_POST["post_type"];
+    na_get_posts($offset, $tag, $sort_by, $post_type);
+    wp_die();
+});
+
+
+
+
+
 add_filter(
 	'upload_mimes',
 	function ($mimes) {
@@ -187,6 +246,24 @@ add_action( "after_setup_theme",
 		}
 	}
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
