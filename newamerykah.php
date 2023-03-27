@@ -166,7 +166,7 @@ function na_get_posts($offset = 0, $tag = '', $sort_by = 'date', $post_type = 'p
 			}
 			else
 			{
-				$link = "";
+				$link = get_the_permalink();
 				$excerpt = get_the_excerpt();
 				$imgurl = get_post_thumbnail_id();
 				$img = $imgurl ? nv_c("c/img", [ "attachment_id" => $imgurl] ) : '';
