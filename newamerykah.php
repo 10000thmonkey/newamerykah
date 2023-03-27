@@ -279,7 +279,7 @@ function defer_style( $handle )
     if ( isset( $wp_styles->registered[$handle] ) )
     {
         $plugin_style_src = $wp_styles->registered[$handle]->src;
-        print_r($plugin_style_src);
+        //print_r($plugin_style_src);
 
         wp_dequeue_style( $handle );
         
