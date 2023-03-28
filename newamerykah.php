@@ -298,7 +298,7 @@ function defer_script( $handle )
 	if ( isset( $wp_scripts->registered[$handle] ) )
 	{
 		$script_src = $wp_scripts->registered[$handle]->src;
-		wp_dequeue_scripts( $handle );
+		wp_dequeue_script( $handle );
 
 		add_action("wp_footer", function(){
 			echo '<script src="'.$script_src.'" id="'.$handle.'-js" async></script>';
