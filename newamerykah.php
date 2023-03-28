@@ -231,7 +231,6 @@ add_action( "after_setup_theme",
 				function()
 				{
 					wp_enqueue_style( "nv-framework", "https://navalachy.cz/wp-content/themes/navalachy/assets/framework.css" );
-					wp_enqueue_style( "montserrat", "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" );
 					wp_enqueue_style( "newamerykah-css", "/wp-content/plugins/newamerykah/style.css" );
 
 					// DISABLE WP DEFAULT RESOURCES WHEN NOT ON SINGLE POST
