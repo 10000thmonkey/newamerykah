@@ -297,7 +297,7 @@ function defer_script( $handle )
 
 	if ( isset( $wp_scripts->registered[$handle] ) )
 	{
-		$script_src = $wp_scripts[$handle]->src;
+		$script_src = $wp_scripts->registered[$handle]->src;
 		wp_dequeue_scripts( $handle );
 
 		add_action("wp_footer", function(){
