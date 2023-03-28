@@ -291,7 +291,20 @@ function defer_style( $handle )
 
 
 
+function defer_script( $handle )
+{
+	global $wp_scripts;
 
+	if ( isset( $wp_scripts->registered[$handle] ) )
+	{
+		$script_src = $wp_scripts[$handle]->src;
+		wp_dequeue_scripts( $handle );
+
+		add_action("wp_footer", function(){
+			echo '<script src="'.$script_src.'" id="'.$handle.'-js" async></script>';
+		});
+	}
+}
 
 
 
