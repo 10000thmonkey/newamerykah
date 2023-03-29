@@ -889,3 +889,10 @@ class NVLoggedOut extends NVElement
 }
 customElements.define( "nv-logged-in", NVLoggedIn );
 customElements.define( "nv-logged-out", NVLoggedOut );
+
+
+
+
+
+
+for ( let i in window.DOMContentLoadedQueue ) i();
