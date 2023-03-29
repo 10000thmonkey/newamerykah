@@ -290,19 +290,19 @@ function defer_style( $handle )
 
 
 
-function defer_script( $handle )
+function defer_script( $handler )
 {
-	global $wp_scripts;
-
-	if ( isset( $wp_scripts->registered[$handle] ) )
+	add_filter("script_loader_tag", function( $tag, $hadle, $src ) use( $handler )
 	{
-		$script_src = $wp_scripts->registered[$handle]->src;
-		wp_dequeue_script( $handle );
-
-		add_action("wp_footer", function() use ( $handle, $script_src ) {
-			echo '<script src="'.$script_src.'" id="'.$handle.'-js" defer></script>';
-		});
-	}
+		if ( $handle === $handler )
+		{
+			add_action("wp_footer", function() use ( $handle, $src )
+			{
+				echo '<script defer type="text/javascript" id="' .$handle. '-js" src="' .$src. '"></script>';
+			});
+			return "";
+		}
+	}, 1001, 3);
 }
 
 
