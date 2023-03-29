@@ -895,4 +895,7 @@ customElements.define( "nv-logged-out", NVLoggedOut );
 
 
 
-for ( let i in window.DOMContentLoadedQueue ) i();
+for ( let i in window.DOMContentLoadedQueue ) {
+	console.log(i);
+	i();
+}
