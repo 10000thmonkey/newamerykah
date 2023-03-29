@@ -107,6 +107,12 @@ body {
 	}
 
 	&.single {
+		@media (min-width: 700px) and (max-width: 1500px) {
+		    --contentwidth: 90%;
+		}
+		@media (min-width: 1500px) {
+	        --contentwidth: 950px;
+	    }
 		ul li { list-style-type: disc; padding-left: var(--space-md); }
 		article { font-size: var(--font-md); }
 		article h1 { font-size: var(--font-lg); }
