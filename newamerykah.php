@@ -309,7 +309,15 @@ function defer_script( $handle )
 
 
 
+function load_critical_css() {
+	add_action('wp_enqueue_scripts', function()
+	{
+		echo "<style>".file_get_contents( get_theme_root() . "/iosi-global/critical.css")."</style>";
+		defer_style("nv-framework");
+		defer_style("newamerykah-css");
 
+	}, 1001);
+}
 
 
 
