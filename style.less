@@ -97,7 +97,6 @@ body {
 	p {
 		color: var(--text-paragraph-color);
 		line-height: 1.5;
-
 	}
 	a { color: inherit; }
 	strong { font-weight: 700; }
@@ -109,8 +108,9 @@ body {
 
 	&.single {
 		ul li { list-style-type: disc; padding-left: var(--space-md); }
+		article { font-size: var(--font-md); }
 		article h1 { font-size: var(--font-lg); }
-		article p { margin: 15px 0; }
+		article p { margin: var(--space-md) 0; }
 	}
 
     .bg-wrapper {
