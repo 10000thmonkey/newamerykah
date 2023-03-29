@@ -292,7 +292,7 @@ function defer_style( $handle )
 
 function defer_script( $handler )
 {
-	add_filter("script_loader_tag", function( $tag, $hadle, $src ) use( $handler )
+	add_filter("script_loader_tag", function( $tag, $handle, $src ) use( $handler )
 	{
 		if ( $handle === $handler )
 		{
