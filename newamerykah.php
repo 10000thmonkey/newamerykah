@@ -307,8 +307,6 @@ function defer_script( $handler )
 
 
 
-
-
 function load_critical_css() {
 	add_action('wp_enqueue_scripts', function()
 	{
