@@ -422,6 +422,15 @@ div.is-ajax-search-details, div.is-ajax-search-result, #is-ajax-search-result-25
 	    opacity: 0;
 	    transition: 700ms var(--easingfunction) opacity, 500ms var(--easingfunction) transform;
 	}
+	&.outerlink:after {
+		content: '\25BC';
+		position: absolute;
+		top: 50%;
+		right: 1em;
+		transform: translateY(-50%) rotate(-90deg);
+		pointer-events: none;
+		transition: 200ms var(--easingfunction) all;
+	}
 
 	&:hover,
 	&.is-checked {
@@ -481,6 +490,8 @@ node-select {
 			right: 1em;
 			transform: translateY(-50%);
 			pointer-events: none;
+			font-size: 24px;
+			color: var(--iosigold);
 		}
 	}
 
@@ -560,7 +571,7 @@ node-select {
 		
 		span {
 			color: var(--iosigold);
-			font-size: 125%;
+			font-size: 30px;
 			transition: 1s var(--easingfunction) all;
 			transform: rotate(90deg);
 		}
