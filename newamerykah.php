@@ -262,7 +262,7 @@ add_action( "after_setup_theme",
 
 
 			add_action( "wp_footer", function() {
-				echo nv_t("t/footer");  
+				echo apply_filters( "newamerykah_print_footer", nv_t("t/footer") );  
 			} );
 		}
 	}, 999
