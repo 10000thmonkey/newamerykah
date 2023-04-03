@@ -310,7 +310,8 @@ function defer_script( $handler )
 function load_critical_css() {
 	add_action('wp_enqueue_scripts', function()
 	{
-		echo "<style>".file_get_contents( get_theme_root() . "/iosi-global/critical.css")."</style>";
+		$filename = get_theme_root() . "/iosi-global/critical.css";
+		if ( file_exists( $filename ) ) echo "<style>".file_get_contents( $filename )."</style>";
 		defer_style("nv-framework");
 		defer_style("newamerykah-css");
 
